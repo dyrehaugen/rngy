@@ -9,6 +9,8 @@ power-density
 energy-development
 energy-transition
 minerals-in-transition
+iea-net-zero-2050
+transition-risks
 batteries
 lithium
 portugals-lithium-reserves
@@ -24,12 +26,14 @@ flow-batteries-1
 mechnical-energy-storage
 thermal-storage
 software-market-flex
+amoniac
 bio-fuel
 fuel-cells
 geothermal
 heat-storage
 deep-drilling
 ultra-deep-drilling
+nevada
 hydro-power
 hydrogen
 hydrogen-aviation
@@ -46,10 +50,13 @@ icing
 bladeless
 varia
 us-legislation
+distributed-energy-resources
+virtual-power-plants
 energy-use
 energy-efficiency
 rebound-effect
 urbanization
+green-steel
 energy-poverty
 carbon-intensity-of-energy
 rebound-effect-1
@@ -58,5 +65,6 @@ norway
 about
 links
 news
+crane-battery
 heatcrete-thermal-storage
 gas-is-over
