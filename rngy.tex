@@ -4,8 +4,8 @@
 %
 \documentclass[
 ]{book}
-\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
+\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -41,8 +41,7 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
+\usepackage{longtable,booktabs}
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -78,15 +77,12 @@
 \makeatother
 
 \renewcommand\chaptername{}
-\ifluatex
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{Energy}
 \author{Dyrehaugen Web Notebook}
-\date{2021-06-27}
+\date{2021-10-03}
 
 \begin{document}
 \maketitle
@@ -332,19 +328,19 @@ electricity supply.
 \begin{longtable}[]{@{}lrl@{}}
 \caption{Low-High Power Density estimate}\tabularnewline
 \toprule
-Power Source & Power & Density (\(W/m^{2}\)) \\ \addlinespace
+Power Source & Power & Density (\(W/m^{2}\))\tabularnewline
 \midrule
 \endfirsthead
 \toprule
-Power Source & Power & Density (\(W/m^{2}\)) \\ \addlinespace
+Power Source & Power & Density (\(W/m^{2}\))\tabularnewline
 \midrule
 \endhead
-Natural Gas & 200 & 2000 \\ \addlinespace
-Coal & 100 & 1000 \\ \addlinespace
-Solar (PV) & 4 & 9 \\ \addlinespace
-Solar (CSP) & 4 & 10 \\ \addlinespace
-Wind & 0.5 & 1.5 \\ \addlinespace
-Biomass & 0.5 & 0.6 \\ \addlinespace
+Natural Gas & 200 & 2000\tabularnewline
+Coal & 100 & 1000\tabularnewline
+Solar (PV) & 4 & 9\tabularnewline
+Solar (CSP) & 4 & 10\tabularnewline
+Wind & 0.5 & 1.5\tabularnewline
+Biomass & 0.5 & 0.6\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1227,6 +1223,25 @@ But a \href{https://www.energy.gov/sites/default/files/2019/06/f63/GeoVision-ful
 
 \href{https://www.canarymedia.com/articles/google-taps-geothermal-for-corporate-clean-energy/}{CanaryMedia}
 
+\hypertarget{china}{%
+\section{China}\label{china}}
+
+\emph{Smelror (in Norwegian)}
+
+I gjennomsnitt øker temperaturen nedover i dypet med rundt 3° C for hver 100 m.
+Geologiske variasjoner som varmeproduksjon og termisk konduktivitet kommer først inn som en viktig faktor ved 1000 m og dypere. Her vil varmeproduksjon fra nedbryting av radioaktivt materiale ha mye å si for den geotermiske gradienten.
+
+Geotermisk energi i dag ikke dekker mer enn 1 \% verdens totale behov for energi.
+10 av de 15 landene med høyest andel geotermisk energi utviklingsland (inkludert El Salvador, Guatemala, El Salvador, Filippinene og Kenya).
+
+Et av de landene som satser sterkest på å utnytte geotermisk energi er Kina. Målet er å produsere 560 000 GWh elektrisitet innen 2015. Selv om dette ikke vil dekke mer enn 1,7 \% av landets totale energiforbruk, vil dette tilsvare et forbruk på 68,8 millioner tonn standard kullekvivalenter. Det er beregnet av bruken av grunn geotermisk energi i de 287 største byene vil kunne tilsvare en produksjon på 2,8 millioner GWh elektrisk strøm. Fratrukket nødvendig strømbruk til utvikling og drift av varmepumpene, vil dette tilsvare et forbruk på 250 millioner tonn kullekvivalenter, noe som igjen vil tilsvare 500 millioner tonn redusert utslipp av karbondioksid. I tillegg vil Kina produsere geotermisk energi fra 12 ulike områder med varme kilder, tilsvarende et forbruk på 4,52 millioner tonn kullekvivalenter, tilsvarende et redusert utslipp av karbondioksid på hele 1,3 milliarder tonn.
+
+Potensialet blir ennå mer overveldende hvis man også tar i betraktning muligheten for utnyttelse av dyp geotermisk energi på en regional skala også utenfor de 12 høytemperatur-områdene. Dette vil kreve en storstilt satsning på energibrønner boret ned til mellom 3000 m og 10 000 m. I følge nyere beregninger kan man få ut energi tilsvarende 860 trillioner tonn kullekvivalenter, noe som tilsvarer mer enn 7 trillioner GWh elektrisk strøm, og som er nok til å dekke Kinas totale årlige energiforbruk 260 000 ganger.
+
+For å kunne utnytte potensialet for geotermisk energi må det framskaffes ny geologisk kunnskap. Vi må kjenne til løsmassemektigheter, ha kunnskap om hydrogeologiske forhold i undergrunnen, kjenne til porøsitet og permeabilitet i reservoarene dypt nede i undergrunnen, vi må kjenne til varmeproduksjon og varmeledningsevne i de ulike bergartene, og vi må vite hvor store rom i undergrunnen de geotermiske reservoarene strekker seg over. Bærekraftig energi for alle handler mye om geologi. De som ønsker å gjøre en forskjell ved å bidra til en verden med økt bruk av miljøvennlige energikilder, gjør klokt i å velge en utdanning som gjør at de kan omsette gode intensjoner til konkret handling. I så måte er kunnskap innen geologi et godt og nødvendig fundament.
+
+\href{https://www.geoforskning.no/blogg/item/baerekraftig-energi-for-alle}{Smelror}
+
 \hypertarget{hydro-power}{%
 \chapter{Hydro Power}\label{hydro-power}}
 
@@ -1438,6 +1453,39 @@ More than 200 tokamaks around the world have paved the way to the ITER experimen
 Conceived as the last experimental step to prove the feasibility of fusion as a large-scale and carbon-free source of energy, ITER will be the world's largest tokamak, with ten times the plasma volume of the largest tokamak operating today.
 
 \href{https://www.iter.org/proj/iterhistory}{ITER}
+
+\hypertarget{oil}{%
+\chapter{Oil}\label{oil}}
+
+The global oil and gas industry consumes 3-4\% of global primary energy supply to extract,
+transport, and refine energy products.
+
+\hypertarget{carbon-intensity-of-crude-oil-production}{%
+\section{Carbon Intensity of Crude Oil Production}\label{carbon-intensity-of-crude-oil-production}}
+
+\emph{Mansadi Abstract}
+
+The goals of the Paris Agreement pose challenges
+to the oil and gas sector given the need to meet energy demand globally while limiting
+greenhouse gas (GHG) emissions. We preliminarily quantify the heterogeneity of crude oil
+well-to-refinery carbon intensities (CIs) by performing field-by-field life-cycle analysis
+(LCA) of nearly 9,000 global oilfields representing \textasciitilde98\% of 2015 worldwide crude oil
+production. The global volume-weighted average upstream CI estimate is 10.3 g
+CO 2 eq./MJ crude oil, with country-level emissions ranging from 3.3 to 20.3 g CO 2 eq./MJ.
+Gas flaring and thermal extraction of heavy crude oils are the two major drivers of high
+GHG intensities. Global methane venting and fugitive emissions are poorly documented,
+yet evidence suggests they can increase the CI estimates considerably. Upstream gas
+management strategies alone could potentially mitigate \textasciitilde18 Gt CO 2 eq in the 21 st century.
+Policy insights from this analysis regarding resource management, resource prioritization
+and emerging technologies could enable a reduction in the GHG footprint from the oil and
+gas industry.
+
+\includegraphics{fig/carbon_intensity_of_crude_oil_production.png}
+
+\href{https://www.osti.gov/pages/biblio/1485127}{Masnadi (2018) Global carbon intensity of crude oil production}
+\href{pdf/Masnadi_2018_Carbon_Intensity_of_Crude_Oil_Production.pdf}{(pdf)}
+\href{pdf/Masnadi_2018_Carbon_Intensity_of_Crude_Oil_Production_SM.pdf}{(pdf SM)}
+\href{https://eao.stanford.edu/research-areas/opgeehttps://eao.stanford.edu/research-areas/opgee}{OPGEE Estimation Tool}
 
 \hypertarget{renewable}{%
 \chapter{Renewable}\label{renewable}}
@@ -1968,6 +2016,24 @@ Thanks for visiting!
 
 \hypertarget{news}{%
 \chapter{NEWS}\label{news}}
+
+\hypertarget{renewables-passing-nuclear}{%
+\section{210710 Renewables passing Nuclear}\label{renewables-passing-nuclear}}
+
+\includegraphics{fig/renewables_passing_nuclear.png}
+
+\href{https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html}{BP Statistical Review of World Energy}
+
+\hypertarget{equinor-triple-uk-hydrogen}{%
+\section{210629 Equinor triple UK hydrogen}\label{equinor-triple-uk-hydrogen}}
+
+Norway's state oil company Equinor will triple its UK hydrogen output, after setting out plans to build the world's biggest hydrogen production plant with carbon capture and storage technology near Hull.
+
+Equinor plans to produce clean-burning ``blue hydrogen'' to supply the Keadby gas power plant in Lincolnshire, owned by energy company SSE, making it the world's first full-scale power plant to burn pure hydrogen to generate electricity.
+
+Anders Opedal, the chief executive of Equinor, said on Monday that the company plans to produce another 1,200MW of blue hydrogen in the Humber area to help supply the Keadby hydrogen power plant.
+
+\href{https://www.theguardian.com/business/2021/jun/29/equinor-to-triple-uk-hydrogen-output-with-new-plant-near-hull}{Guardian}
 
 \hypertarget{crane-battery}{%
 \section{210604 Crane Battery}\label{crane-battery}}
