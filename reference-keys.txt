@@ -3,6 +3,7 @@ energy-overview
 energy-civilization
 world-energy-outlook
 energy-demand
+energy-statistics
 energy-transition-not-enough
 energy-intensity
 power-density
@@ -37,6 +38,8 @@ nevada
 china
 hydro-power
 hydrogen
+home-hydrogen
+wind-to-hydrogen
 hydrogen-aviation
 nuclear
 fukushima
