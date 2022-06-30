@@ -22,7 +22,6 @@ zinc
 sodium-ion
 liquid-metal
 quantumscape
-energy-storage
 pumped-hydro
 flow-batteries-1
 mechnical-energy-storage
@@ -36,6 +35,7 @@ geothermal
 heat-storage
 deep-drilling
 ultra-deep-drilling
+drilling-technology
 nevada
 china
 us
@@ -50,13 +50,16 @@ fukushima
 james-hansens-position
 fusion---iter
 thorium
+melted-salt-reactors
 oil
 carbon-intensity-of-crude-oil-production
 renewable
 solar
 software-drives-solar-costs
 efficiency
+ocean-wave-power
 wind
+installed-capacity-megawatts
 icing
 bladeless
 varia
@@ -68,6 +71,7 @@ energy-efficiency
 rebound-effect
 urbanization
 green-steel
+molten-oxide-electrolysis
 energy-poverty
 carbon-intensity-of-energy
 rebound-effect-1
@@ -82,6 +86,7 @@ united-states
 about
 links
 news
+silicon-batteries
 europes-energy-crisis
 novel-lithium-carbon-battery-chemistry
 renewables-passing-nuclear
