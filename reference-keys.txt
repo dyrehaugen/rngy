@@ -13,10 +13,12 @@ energy-transition
 minerals-in-transition
 iea-net-zero-2050
 transition-risks
+transition-forecasting
 batteries
 lithium
 portugals-lithium-reserves
 lithium-ion-batteries-libs
+iron-air
 flow-batteries
 zinc
 sodium-ion
@@ -45,6 +47,7 @@ home-hydrogen
 green-vs-blue-hdrogen
 wind-to-hydrogen
 hydrogen-aviation
+green-hydrogen-cost-reduction
 nuclear
 fukushima
 james-hansens-position
@@ -86,6 +89,7 @@ united-states
 about
 links
 news
+floating-wind-farm
 silicon-batteries
 europes-energy-crisis
 novel-lithium-carbon-battery-chemistry
