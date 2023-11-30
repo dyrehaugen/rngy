@@ -4,19 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>19 Wind | Energy</title>
-  <meta name="description" content="19 Wind | Energy" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <title>23 Wind | Energy</title>
+  <meta name="description" content="23 Wind | Energy" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="19 Wind | Energy" />
+  <meta property="og:title" content="23 Wind | Energy" />
   <meta property="og:type" content="book" />
-  
   
   
   <meta name="github-repo" content="dyrehaugen/rngy" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="19 Wind | Energy" />
+  <meta name="twitter:title" content="23 Wind | Energy" />
   
   
   
@@ -24,7 +23,7 @@
 <meta name="author" content="Dyrehaugen Web Notebook" />
 
 
-<meta name="date" content="2022-12-04" />
+<meta name="date" content="2023-11-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="ocean-wave-power.html"/>
 <link rel="next" href="varia.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,13 +49,16 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -80,6 +82,7 @@
 <li class="chapter" data-level="2.1" data-path="energy-overview.html"><a href="energy-overview.html#energy-civilization"><i class="fa fa-check"></i><b>2.1</b> Energy Civilization</a></li>
 <li class="chapter" data-level="2.2" data-path="energy-overview.html"><a href="energy-overview.html#world-energy-outlook"><i class="fa fa-check"></i><b>2.2</b> World Energy Outlook</a></li>
 <li class="chapter" data-level="2.3" data-path="energy-overview.html"><a href="energy-overview.html#energy-power-game"><i class="fa fa-check"></i><b>2.3</b> Energy Power Game</a></li>
+<li class="chapter" data-level="2.4" data-path="energy-overview.html"><a href="energy-overview.html#world-energy-consumption-per-capita"><i class="fa fa-check"></i><b>2.4</b> World Energy Consumption per Capita</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="energy-demand.html"><a href="energy-demand.html"><i class="fa fa-check"></i><b>3</b> Energy Demand</a>
 <ul>
@@ -90,131 +93,175 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="energy-intensity.html"><a href="energy-intensity.html#power-density"><i class="fa fa-check"></i><b>4.1</b> Power Density</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="energy-development.html"><a href="energy-development.html"><i class="fa fa-check"></i><b>5</b> Energy Development</a></li>
-<li class="chapter" data-level="6" data-path="energy-transition.html"><a href="energy-transition.html"><i class="fa fa-check"></i><b>6</b> Energy Transition</a>
+<li class="chapter" data-level="5" data-path="energy-return.html"><a href="energy-return.html"><i class="fa fa-check"></i><b>5</b> Energy Return</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="energy-transition.html"><a href="energy-transition.html#minerals-in-transition"><i class="fa fa-check"></i><b>6.1</b> Minerals in Transition</a></li>
-<li class="chapter" data-level="6.2" data-path="energy-transition.html"><a href="energy-transition.html#iea-net-zero-2050"><i class="fa fa-check"></i><b>6.2</b> IEA Net-zero 2050</a></li>
-<li class="chapter" data-level="6.3" data-path="energy-transition.html"><a href="energy-transition.html#transition-risks"><i class="fa fa-check"></i><b>6.3</b> Transition Risks</a></li>
-<li class="chapter" data-level="6.4" data-path="energy-transition.html"><a href="energy-transition.html#transition-forecasting"><i class="fa fa-check"></i><b>6.4</b> Transition Forecasting</a></li>
+<li class="chapter" data-level="5.1" data-path="energy-return.html"><a href="energy-return.html#eroei"><i class="fa fa-check"></i><b>5.1</b> EROEI</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="batteries.html"><a href="batteries.html"><i class="fa fa-check"></i><b>7</b> Batteries</a>
+<li class="chapter" data-level="6" data-path="energy-development.html"><a href="energy-development.html"><i class="fa fa-check"></i><b>6</b> Energy Development</a></li>
+<li class="chapter" data-level="7" data-path="energy-transition.html"><a href="energy-transition.html"><i class="fa fa-check"></i><b>7</b> Energy Transition</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="batteries.html"><a href="batteries.html#lithium"><i class="fa fa-check"></i><b>7.1</b> Lithium</a>
+<li class="chapter" data-level="7.1" data-path="energy-transition.html"><a href="energy-transition.html#minerals-in-transition"><i class="fa fa-check"></i><b>7.1</b> Minerals in Transition</a>
 <ul>
-<li class="chapter" data-level="7.1.1" data-path="batteries.html"><a href="batteries.html#portugals-lithium-reserves"><i class="fa fa-check"></i><b>7.1.1</b> Portugal’s Lithium Reserves</a></li>
+<li class="chapter" data-level="7.1.1" data-path="energy-transition.html"><a href="energy-transition.html#copper"><i class="fa fa-check"></i><b>7.1.1</b> Copper</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="batteries.html"><a href="batteries.html#lithium-ion-batteries-libs"><i class="fa fa-check"></i><b>7.2</b> Lithium-ion Batteries (LIBs)</a></li>
-<li class="chapter" data-level="7.3" data-path="batteries.html"><a href="batteries.html#iron-air"><i class="fa fa-check"></i><b>7.3</b> Iron-Air</a></li>
-<li class="chapter" data-level="7.4" data-path="batteries.html"><a href="batteries.html#flow-batteries"><i class="fa fa-check"></i><b>7.4</b> Flow Batteries</a></li>
-<li class="chapter" data-level="7.5" data-path="batteries.html"><a href="batteries.html#zinc"><i class="fa fa-check"></i><b>7.5</b> Zinc</a></li>
-<li class="chapter" data-level="7.6" data-path="batteries.html"><a href="batteries.html#sodium-ion"><i class="fa fa-check"></i><b>7.6</b> Sodium-ion</a></li>
-<li class="chapter" data-level="7.7" data-path="batteries.html"><a href="batteries.html#liquid-metal"><i class="fa fa-check"></i><b>7.7</b> Liquid-Metal</a></li>
-<li class="chapter" data-level="7.8" data-path="batteries.html"><a href="batteries.html#quantumscape"><i class="fa fa-check"></i><b>7.8</b> QuantumScape</a></li>
-<li class="chapter" data-level="7.9" data-path="batteries.html"><a href="batteries.html#pumped-hydro"><i class="fa fa-check"></i><b>7.9</b> Pumped Hydro</a></li>
-<li class="chapter" data-level="7.10" data-path="batteries.html"><a href="batteries.html#flow-batteries-1"><i class="fa fa-check"></i><b>7.10</b> Flow Batteries</a></li>
-<li class="chapter" data-level="7.11" data-path="batteries.html"><a href="batteries.html#mechnical-energy-storage"><i class="fa fa-check"></i><b>7.11</b> Mechnical Energy Storage</a></li>
-<li class="chapter" data-level="7.12" data-path="batteries.html"><a href="batteries.html#thermal-storage"><i class="fa fa-check"></i><b>7.12</b> Thermal Storage</a></li>
-<li class="chapter" data-level="7.13" data-path="batteries.html"><a href="batteries.html#software-market-flex"><i class="fa fa-check"></i><b>7.13</b> Software (Market Flex)</a></li>
-<li class="chapter" data-level="7.14" data-path="batteries.html"><a href="batteries.html#compressed-air"><i class="fa fa-check"></i><b>7.14</b> Compressed Air</a></li>
+<li class="chapter" data-level="7.2" data-path="energy-transition.html"><a href="energy-transition.html#iea-net-zero-2050"><i class="fa fa-check"></i><b>7.2</b> IEA Net-zero 2050</a></li>
+<li class="chapter" data-level="7.3" data-path="energy-transition.html"><a href="energy-transition.html#transition-risks"><i class="fa fa-check"></i><b>7.3</b> Transition Risks</a></li>
+<li class="chapter" data-level="7.4" data-path="energy-transition.html"><a href="energy-transition.html#transition-forecasting"><i class="fa fa-check"></i><b>7.4</b> Transition Forecasting</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="amoniac.html"><a href="amoniac.html"><i class="fa fa-check"></i><b>8</b> Amoniac</a></li>
-<li class="chapter" data-level="9" data-path="bio-fuel.html"><a href="bio-fuel.html"><i class="fa fa-check"></i><b>9</b> Bio Fuel</a></li>
-<li class="chapter" data-level="10" data-path="fuel-cells.html"><a href="fuel-cells.html"><i class="fa fa-check"></i><b>10</b> Fuel Cells</a></li>
-<li class="chapter" data-level="11" data-path="geothermal.html"><a href="geothermal.html"><i class="fa fa-check"></i><b>11</b> Geothermal</a>
+<li class="chapter" data-level="8" data-path="batteries.html"><a href="batteries.html"><i class="fa fa-check"></i><b>8</b> Batteries</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="geothermal.html"><a href="geothermal.html#heat-storage"><i class="fa fa-check"></i><b>11.1</b> Heat Storage</a></li>
-<li class="chapter" data-level="11.2" data-path="geothermal.html"><a href="geothermal.html#deep-drilling"><i class="fa fa-check"></i><b>11.2</b> Deep Drilling</a>
+<li class="chapter" data-level="8.1" data-path="batteries.html"><a href="batteries.html#lithium"><i class="fa fa-check"></i><b>8.1</b> Lithium</a>
 <ul>
-<li class="chapter" data-level="11.2.1" data-path="geothermal.html"><a href="geothermal.html#ultra-deep-drilling"><i class="fa fa-check"></i><b>11.2.1</b> Ultra Deep Drilling</a></li>
-<li class="chapter" data-level="11.2.2" data-path="geothermal.html"><a href="geothermal.html#drilling-technology"><i class="fa fa-check"></i><b>11.2.2</b> Drilling Technology</a></li>
+<li class="chapter" data-level="8.1.1" data-path="batteries.html"><a href="batteries.html#portugals-lithium-reserves"><i class="fa fa-check"></i><b>8.1.1</b> Portugal’s Lithium Reserves</a></li>
 </ul></li>
-<li class="chapter" data-level="11.3" data-path="geothermal.html"><a href="geothermal.html#nevada"><i class="fa fa-check"></i><b>11.3</b> Nevada</a></li>
-<li class="chapter" data-level="11.4" data-path="geothermal.html"><a href="geothermal.html#china"><i class="fa fa-check"></i><b>11.4</b> China</a></li>
-<li class="chapter" data-level="11.5" data-path="geothermal.html"><a href="geothermal.html#us"><i class="fa fa-check"></i><b>11.5</b> US</a></li>
+<li class="chapter" data-level="8.2" data-path="batteries.html"><a href="batteries.html#lithium-ion-batteries-libs"><i class="fa fa-check"></i><b>8.2</b> Lithium-ion Batteries (LIBs)</a></li>
+<li class="chapter" data-level="8.3" data-path="batteries.html"><a href="batteries.html#nickel-hydrogen"><i class="fa fa-check"></i><b>8.3</b> Nickel-Hydrogen</a></li>
+<li class="chapter" data-level="8.4" data-path="batteries.html"><a href="batteries.html#iron-air"><i class="fa fa-check"></i><b>8.4</b> Iron-Air</a></li>
+<li class="chapter" data-level="8.5" data-path="batteries.html"><a href="batteries.html#flow-batteries"><i class="fa fa-check"></i><b>8.5</b> Flow Batteries</a></li>
+<li class="chapter" data-level="8.6" data-path="batteries.html"><a href="batteries.html#zinc"><i class="fa fa-check"></i><b>8.6</b> Zinc</a></li>
+<li class="chapter" data-level="8.7" data-path="batteries.html"><a href="batteries.html#sodium-ion"><i class="fa fa-check"></i><b>8.7</b> Sodium-ion</a></li>
+<li class="chapter" data-level="8.8" data-path="batteries.html"><a href="batteries.html#sodium-sulphur"><i class="fa fa-check"></i><b>8.8</b> Sodium-Sulphur</a></li>
+<li class="chapter" data-level="8.9" data-path="batteries.html"><a href="batteries.html#liquid-metal"><i class="fa fa-check"></i><b>8.9</b> Liquid-Metal</a></li>
+<li class="chapter" data-level="8.10" data-path="batteries.html"><a href="batteries.html#quantumscape"><i class="fa fa-check"></i><b>8.10</b> QuantumScape</a></li>
+<li class="chapter" data-level="8.11" data-path="batteries.html"><a href="batteries.html#co2"><i class="fa fa-check"></i><b>8.11</b> CO2</a></li>
+<li class="chapter" data-level="8.12" data-path="batteries.html"><a href="batteries.html#graphene"><i class="fa fa-check"></i><b>8.12</b> Graphene</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="hydro-power.html"><a href="hydro-power.html"><i class="fa fa-check"></i><b>12</b> Hydro Power</a></li>
-<li class="chapter" data-level="13" data-path="hydrogen.html"><a href="hydrogen.html"><i class="fa fa-check"></i><b>13</b> Hydrogen</a>
+<li class="chapter" data-level="9" data-path="energy-storage.html"><a href="energy-storage.html"><i class="fa fa-check"></i><b>9</b> Energy Storage</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="hydrogen.html"><a href="hydrogen.html#home-hydrogen"><i class="fa fa-check"></i><b>13.1</b> Home Hydrogen</a></li>
-<li class="chapter" data-level="13.2" data-path="hydrogen.html"><a href="hydrogen.html#green-vs-blue-hdrogen"><i class="fa fa-check"></i><b>13.2</b> Green vs Blue Hdrogen</a></li>
-<li class="chapter" data-level="13.3" data-path="hydrogen.html"><a href="hydrogen.html#wind-to-hydrogen"><i class="fa fa-check"></i><b>13.3</b> Wind to Hydrogen</a></li>
-<li class="chapter" data-level="13.4" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-aviation"><i class="fa fa-check"></i><b>13.4</b> Hydrogen Aviation</a></li>
-<li class="chapter" data-level="13.5" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen-cost-reduction"><i class="fa fa-check"></i><b>13.5</b> Green Hydrogen Cost Reduction</a></li>
+<li class="chapter" data-level="9.1" data-path="energy-storage.html"><a href="energy-storage.html#pumped-hydro"><i class="fa fa-check"></i><b>9.1</b> Pumped Hydro</a></li>
+<li class="chapter" data-level="9.2" data-path="energy-storage.html"><a href="energy-storage.html#flow-batteries-1"><i class="fa fa-check"></i><b>9.2</b> Flow Batteries</a></li>
+<li class="chapter" data-level="9.3" data-path="energy-storage.html"><a href="energy-storage.html#mechnical-energy-storage"><i class="fa fa-check"></i><b>9.3</b> Mechnical Energy Storage</a></li>
+<li class="chapter" data-level="9.4" data-path="energy-storage.html"><a href="energy-storage.html#thermal-storage"><i class="fa fa-check"></i><b>9.4</b> Thermal Storage</a></li>
+<li class="chapter" data-level="9.5" data-path="energy-storage.html"><a href="energy-storage.html#software-market-flex"><i class="fa fa-check"></i><b>9.5</b> Software (Market Flex)</a></li>
+<li class="chapter" data-level="9.6" data-path="energy-storage.html"><a href="energy-storage.html#compressed-air"><i class="fa fa-check"></i><b>9.6</b> Compressed Air</a></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="nuclear.html"><a href="nuclear.html"><i class="fa fa-check"></i><b>14</b> Nuclear</a>
+<li class="chapter" data-level="10" data-path="amoniac.html"><a href="amoniac.html"><i class="fa fa-check"></i><b>10</b> Amoniac</a></li>
+<li class="chapter" data-level="11" data-path="aviation-fuel.html"><a href="aviation-fuel.html"><i class="fa fa-check"></i><b>11</b> Aviation Fuel</a></li>
+<li class="chapter" data-level="12" data-path="bio-fuel.html"><a href="bio-fuel.html"><i class="fa fa-check"></i><b>12</b> Bio Fuel</a></li>
+<li class="chapter" data-level="13" data-path="fuel-cells.html"><a href="fuel-cells.html"><i class="fa fa-check"></i><b>13</b> Fuel Cells</a></li>
+<li class="chapter" data-level="14" data-path="geothermal.html"><a href="geothermal.html"><i class="fa fa-check"></i><b>14</b> Geothermal</a>
 <ul>
-<li class="chapter" data-level="14.1" data-path="nuclear.html"><a href="nuclear.html#fukushima"><i class="fa fa-check"></i><b>14.1</b> Fukushima</a></li>
-<li class="chapter" data-level="14.2" data-path="nuclear.html"><a href="nuclear.html#james-hansens-position"><i class="fa fa-check"></i><b>14.2</b> James Hansen’s Position</a></li>
-<li class="chapter" data-level="14.3" data-path="nuclear.html"><a href="nuclear.html#fusion---iter"><i class="fa fa-check"></i><b>14.3</b> Fusion - ITER</a></li>
-<li class="chapter" data-level="14.4" data-path="nuclear.html"><a href="nuclear.html#thorium"><i class="fa fa-check"></i><b>14.4</b> Thorium</a></li>
-<li class="chapter" data-level="14.5" data-path="nuclear.html"><a href="nuclear.html#melted-salt-reactors"><i class="fa fa-check"></i><b>14.5</b> Melted Salt Reactors</a></li>
-</ul></li>
-<li class="chapter" data-level="15" data-path="oil.html"><a href="oil.html"><i class="fa fa-check"></i><b>15</b> Oil</a>
+<li class="chapter" data-level="14.1" data-path="geothermal.html"><a href="geothermal.html#heat-storage"><i class="fa fa-check"></i><b>14.1</b> Heat Storage</a></li>
+<li class="chapter" data-level="14.2" data-path="geothermal.html"><a href="geothermal.html#deep-drilling"><i class="fa fa-check"></i><b>14.2</b> Deep Drilling</a>
 <ul>
-<li class="chapter" data-level="15.1" data-path="oil.html"><a href="oil.html#carbon-intensity-of-crude-oil-production"><i class="fa fa-check"></i><b>15.1</b> Carbon Intensity of Crude Oil Production</a></li>
+<li class="chapter" data-level="14.2.1" data-path="geothermal.html"><a href="geothermal.html#ultra-deep-drilling"><i class="fa fa-check"></i><b>14.2.1</b> Ultra Deep Drilling</a></li>
+<li class="chapter" data-level="14.2.2" data-path="geothermal.html"><a href="geothermal.html#drilling-technology"><i class="fa fa-check"></i><b>14.2.2</b> Drilling Technology</a></li>
 </ul></li>
-<li class="chapter" data-level="16" data-path="renewable.html"><a href="renewable.html"><i class="fa fa-check"></i><b>16</b> Renewable</a></li>
-<li class="chapter" data-level="17" data-path="solar.html"><a href="solar.html"><i class="fa fa-check"></i><b>17</b> Solar</a>
+<li class="chapter" data-level="14.3" data-path="geothermal.html"><a href="geothermal.html#enhanced-geothermal"><i class="fa fa-check"></i><b>14.3</b> Enhanced Geothermal</a></li>
+<li class="chapter" data-level="14.4" data-path="geothermal.html"><a href="geothermal.html#us---nevada"><i class="fa fa-check"></i><b>14.4</b> US - Nevada</a></li>
+<li class="chapter" data-level="14.5" data-path="geothermal.html"><a href="geothermal.html#china"><i class="fa fa-check"></i><b>14.5</b> China</a></li>
+<li class="chapter" data-level="14.6" data-path="geothermal.html"><a href="geothermal.html#us"><i class="fa fa-check"></i><b>14.6</b> US</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="hydro-power.html"><a href="hydro-power.html"><i class="fa fa-check"></i><b>15</b> Hydro Power</a></li>
+<li class="chapter" data-level="16" data-path="hydrogen.html"><a href="hydrogen.html"><i class="fa fa-check"></i><b>16</b> Hydrogen</a>
 <ul>
-<li class="chapter" data-level="17.1" data-path="solar.html"><a href="solar.html#software-drives-solar-costs"><i class="fa fa-check"></i><b>17.1</b> Software drives Solar Costs</a></li>
-<li class="chapter" data-level="17.2" data-path="solar.html"><a href="solar.html#efficiency"><i class="fa fa-check"></i><b>17.2</b> Efficiency</a></li>
-</ul></li>
-<li class="chapter" data-level="18" data-path="ocean-wave-power.html"><a href="ocean-wave-power.html"><i class="fa fa-check"></i><b>18</b> Ocean Wave Power</a></li>
-<li class="chapter" data-level="19" data-path="wind.html"><a href="wind.html"><i class="fa fa-check"></i><b>19</b> Wind</a>
+<li class="chapter" data-level="16.1" data-path="hydrogen.html"><a href="hydrogen.html#home-heating-hydrogen"><i class="fa fa-check"></i><b>16.1</b> Home heating Hydrogen</a></li>
+<li class="chapter" data-level="16.2" data-path="hydrogen.html"><a href="hydrogen.html#green-vs-blue-hydrogen"><i class="fa fa-check"></i><b>16.2</b> Green vs Blue Hydrogen</a></li>
+<li class="chapter" data-level="16.3" data-path="hydrogen.html"><a href="hydrogen.html#white-hydrogen"><i class="fa fa-check"></i><b>16.3</b> White Hydrogen</a>
 <ul>
-<li class="chapter" data-level="19.1" data-path="wind.html"><a href="wind.html#installed-capacity-megawatts"><i class="fa fa-check"></i><b>19.1</b> Installed Capacity Megawatts</a></li>
-<li class="chapter" data-level="19.2" data-path="wind.html"><a href="wind.html#icing"><i class="fa fa-check"></i><b>19.2</b> Icing</a></li>
-<li class="chapter" data-level="19.3" data-path="wind.html"><a href="wind.html#bladeless"><i class="fa fa-check"></i><b>19.3</b> Bladeless</a></li>
+<li class="chapter" data-level="16.3.1" data-path="hydrogen.html"><a href="hydrogen.html#how-green-is-blue-hydrogen"><i class="fa fa-check"></i><b>16.3.1</b> How green is blue hydrogen?</a></li>
 </ul></li>
-<li class="chapter" data-level="20" data-path="varia.html"><a href="varia.html"><i class="fa fa-check"></i><b>20</b> Varia</a>
+<li class="chapter" data-level="16.4" data-path="hydrogen.html"><a href="hydrogen.html#wind-to-hydrogen"><i class="fa fa-check"></i><b>16.4</b> Wind to Hydrogen</a></li>
+<li class="chapter" data-level="16.5" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-aviation"><i class="fa fa-check"></i><b>16.5</b> Hydrogen Aviation</a></li>
+<li class="chapter" data-level="16.6" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen-cost-reduction"><i class="fa fa-check"></i><b>16.6</b> Green Hydrogen Cost Reduction</a></li>
+<li class="chapter" data-level="16.7" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen--gas-of-the-future"><i class="fa fa-check"></i><b>16.7</b> Green Hydrogen- ‘Gas of the Future?’</a></li>
+<li class="chapter" data-level="16.8" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-mirage"><i class="fa fa-check"></i><b>16.8</b> Hydrogen Mirage?</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="nuclear.html"><a href="nuclear.html"><i class="fa fa-check"></i><b>17</b> Nuclear</a>
 <ul>
-<li class="chapter" data-level="20.1" data-path="varia.html"><a href="varia.html#us-legislation"><i class="fa fa-check"></i><b>20.1</b> US Legislation</a></li>
+<li class="chapter" data-level="17.1" data-path="nuclear.html"><a href="nuclear.html#fukushima"><i class="fa fa-check"></i><b>17.1</b> Fukushima</a></li>
+<li class="chapter" data-level="17.2" data-path="nuclear.html"><a href="nuclear.html#james-hansens-position"><i class="fa fa-check"></i><b>17.2</b> James Hansen’s Position</a></li>
+<li class="chapter" data-level="17.3" data-path="nuclear.html"><a href="nuclear.html#fusion---iter"><i class="fa fa-check"></i><b>17.3</b> Fusion - ITER</a></li>
+<li class="chapter" data-level="17.4" data-path="nuclear.html"><a href="nuclear.html#fusion---helion"><i class="fa fa-check"></i><b>17.4</b> Fusion - Helion</a></li>
+<li class="chapter" data-level="17.5" data-path="nuclear.html"><a href="nuclear.html#fusion---tiny"><i class="fa fa-check"></i><b>17.5</b> Fusion - Tiny</a></li>
+<li class="chapter" data-level="17.6" data-path="nuclear.html"><a href="nuclear.html#fusion---neither-clean-nor-cheap"><i class="fa fa-check"></i><b>17.6</b> Fusion - Neither clean nor cheap</a></li>
+<li class="chapter" data-level="17.7" data-path="nuclear.html"><a href="nuclear.html#thorium"><i class="fa fa-check"></i><b>17.7</b> Thorium</a></li>
+<li class="chapter" data-level="17.8" data-path="nuclear.html"><a href="nuclear.html#melted-salt-reactors"><i class="fa fa-check"></i><b>17.8</b> Melted Salt Reactors</a></li>
+<li class="chapter" data-level="17.9" data-path="nuclear.html"><a href="nuclear.html#uranium-supply-chain"><i class="fa fa-check"></i><b>17.9</b> Uranium Supply Chain</a></li>
 </ul></li>
-<li class="chapter" data-level="21" data-path="distributed-energy-resources.html"><a href="distributed-energy-resources.html"><i class="fa fa-check"></i><b>21</b> Distributed Energy Resources</a></li>
-<li class="chapter" data-level="22" data-path="virtual-power-plants.html"><a href="virtual-power-plants.html"><i class="fa fa-check"></i><b>22</b> Virtual Power Plants</a></li>
-<li class="chapter" data-level="23" data-path="energy-use.html"><a href="energy-use.html"><i class="fa fa-check"></i><b>23</b> Energy Use</a>
+<li class="chapter" data-level="18" data-path="ocean-turbines.html"><a href="ocean-turbines.html"><i class="fa fa-check"></i><b>18</b> Ocean turbines</a></li>
+<li class="chapter" data-level="19" data-path="oil.html"><a href="oil.html"><i class="fa fa-check"></i><b>19</b> Oil</a>
 <ul>
-<li class="chapter" data-level="23.1" data-path="energy-use.html"><a href="energy-use.html#energy-efficiency"><i class="fa fa-check"></i><b>23.1</b> Energy Efficiency</a>
+<li class="chapter" data-level="19.1" data-path="oil.html"><a href="oil.html#carbon-intensity-of-crude-oil-production"><i class="fa fa-check"></i><b>19.1</b> Carbon Intensity of Crude Oil Production</a></li>
+</ul></li>
+<li class="chapter" data-level="20" data-path="renewable.html"><a href="renewable.html"><i class="fa fa-check"></i><b>20</b> Renewable</a>
 <ul>
-<li class="chapter" data-level="23.1.1" data-path="energy-use.html"><a href="energy-use.html#rebound-effect"><i class="fa fa-check"></i><b>23.1.1</b> Rebound effect</a></li>
+<li class="chapter" data-level="20.1" data-path="renewable.html"><a href="renewable.html#green-energy-a-dead-end"><i class="fa fa-check"></i><b>20.1</b> Green energy: A Dead End</a></li>
 </ul></li>
-<li class="chapter" data-level="23.2" data-path="energy-use.html"><a href="energy-use.html#urbanization"><i class="fa fa-check"></i><b>23.2</b> Urbanization</a></li>
-<li class="chapter" data-level="23.3" data-path="energy-use.html"><a href="energy-use.html#green-steel"><i class="fa fa-check"></i><b>23.3</b> Green Steel</a>
+<li class="chapter" data-level="21" data-path="solar.html"><a href="solar.html"><i class="fa fa-check"></i><b>21</b> Solar</a>
 <ul>
-<li class="chapter" data-level="23.3.1" data-path="energy-use.html"><a href="energy-use.html#molten-oxide-electrolysis"><i class="fa fa-check"></i><b>23.3.1</b> Molten Oxide Electrolysis</a></li>
+<li class="chapter" data-level="21.1" data-path="solar.html"><a href="solar.html#software-drives-solar-costs"><i class="fa fa-check"></i><b>21.1</b> Software drives Solar Costs</a></li>
+<li class="chapter" data-level="21.2" data-path="solar.html"><a href="solar.html#efficiency"><i class="fa fa-check"></i><b>21.2</b> Efficiency</a></li>
+<li class="chapter" data-level="21.3" data-path="solar.html"><a href="solar.html#mediterranean"><i class="fa fa-check"></i><b>21.3</b> Mediterranean</a></li>
+<li class="chapter" data-level="21.4" data-path="solar.html"><a href="solar.html#solar-waste"><i class="fa fa-check"></i><b>21.4</b> Solar Waste</a></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="24" data-path="energy-poverty.html"><a href="energy-poverty.html"><i class="fa fa-check"></i><b>24</b> Energy Poverty</a></li>
-<li class="chapter" data-level="25" data-path="carbon-intensity-of-energy.html"><a href="carbon-intensity-of-energy.html"><i class="fa fa-check"></i><b>25</b> Carbon intensity of Energy</a></li>
-<li class="chapter" data-level="26" data-path="rebound-effect-1.html"><a href="rebound-effect-1.html"><i class="fa fa-check"></i><b>26</b> Rebound Effect</a></li>
-<li class="chapter" data-level="27" data-path="fossil-subsidies.html"><a href="fossil-subsidies.html"><i class="fa fa-check"></i><b>27</b> Fossil Subsidies</a></li>
-<li class="chapter" data-level="28" data-path="germany.html"><a href="germany.html"><i class="fa fa-check"></i><b>28</b> Germany</a></li>
-<li class="chapter" data-level="29" data-path="norway.html"><a href="norway.html"><i class="fa fa-check"></i><b>29</b> Norway</a>
+<li class="chapter" data-level="22" data-path="ocean-wave-power.html"><a href="ocean-wave-power.html"><i class="fa fa-check"></i><b>22</b> Ocean Wave Power</a></li>
+<li class="chapter" data-level="23" data-path="wind.html"><a href="wind.html"><i class="fa fa-check"></i><b>23</b> Wind</a>
 <ul>
-<li class="chapter" data-level="29.1" data-path="norway.html"><a href="norway.html#energy-statistics-1"><i class="fa fa-check"></i><b>29.1</b> Energy Statistics</a></li>
-<li class="chapter" data-level="29.2" data-path="norway.html"><a href="norway.html#energy-policy"><i class="fa fa-check"></i><b>29.2</b> Energy Policy</a>
+<li class="chapter" data-level="23.1" data-path="wind.html"><a href="wind.html#installed-capacity-megawatts"><i class="fa fa-check"></i><b>23.1</b> Installed Capacity Megawatts</a></li>
+<li class="chapter" data-level="23.2" data-path="wind.html"><a href="wind.html#icing"><i class="fa fa-check"></i><b>23.2</b> Icing</a></li>
+<li class="chapter" data-level="23.3" data-path="wind.html"><a href="wind.html#bladeless"><i class="fa fa-check"></i><b>23.3</b> Bladeless</a></li>
+<li class="chapter" data-level="23.4" data-path="wind.html"><a href="wind.html#power-supply-correlation-challenges"><i class="fa fa-check"></i><b>23.4</b> Power Supply Correlation Challenges</a></li>
+</ul></li>
+<li class="chapter" data-level="24" data-path="varia.html"><a href="varia.html"><i class="fa fa-check"></i><b>24</b> Varia</a>
 <ul>
-<li class="chapter" data-level="29.2.1" data-path="norway.html"><a href="norway.html#energy-policy-history"><i class="fa fa-check"></i><b>29.2.1</b> Energy Policy History</a></li>
+<li class="chapter" data-level="24.1" data-path="varia.html"><a href="varia.html#us-legislation"><i class="fa fa-check"></i><b>24.1</b> US Legislation</a></li>
+</ul></li>
+<li class="chapter" data-level="25" data-path="distributed-energy-resources.html"><a href="distributed-energy-resources.html"><i class="fa fa-check"></i><b>25</b> Distributed Energy Resources</a></li>
+<li class="chapter" data-level="26" data-path="virtual-power-plants.html"><a href="virtual-power-plants.html"><i class="fa fa-check"></i><b>26</b> Virtual Power Plants</a></li>
+<li class="chapter" data-level="27" data-path="energy-use.html"><a href="energy-use.html"><i class="fa fa-check"></i><b>27</b> Energy Use</a>
+<ul>
+<li class="chapter" data-level="27.1" data-path="energy-use.html"><a href="energy-use.html#energy-efficiency"><i class="fa fa-check"></i><b>27.1</b> Energy Efficiency</a>
+<ul>
+<li class="chapter" data-level="27.1.1" data-path="energy-use.html"><a href="energy-use.html#rebound-effect"><i class="fa fa-check"></i><b>27.1.1</b> Rebound effect</a></li>
+</ul></li>
+<li class="chapter" data-level="27.2" data-path="energy-use.html"><a href="energy-use.html#urbanization"><i class="fa fa-check"></i><b>27.2</b> Urbanization</a></li>
+<li class="chapter" data-level="27.3" data-path="energy-use.html"><a href="energy-use.html#green-steel"><i class="fa fa-check"></i><b>27.3</b> Green Steel</a>
+<ul>
+<li class="chapter" data-level="27.3.1" data-path="energy-use.html"><a href="energy-use.html#molten-oxide-electrolysis"><i class="fa fa-check"></i><b>27.3.1</b> Molten Oxide Electrolysis</a></li>
+</ul></li>
+<li class="chapter" data-level="27.4" data-path="energy-use.html"><a href="energy-use.html#aluminum"><i class="fa fa-check"></i><b>27.4</b> Aluminum</a></li>
+<li class="chapter" data-level="27.5" data-path="energy-use.html"><a href="energy-use.html#shipping"><i class="fa fa-check"></i><b>27.5</b> Shipping</a>
+<ul>
+<li class="chapter" data-level="27.5.1" data-path="energy-use.html"><a href="energy-use.html#green-methanol"><i class="fa fa-check"></i><b>27.5.1</b> Green methanol</a></li>
+</ul></li>
+<li class="chapter" data-level="27.6" data-path="energy-use.html"><a href="energy-use.html#food-energy-nexus"><i class="fa fa-check"></i><b>27.6</b> Food-Energy Nexus</a></li>
+</ul></li>
+<li class="chapter" data-level="28" data-path="energy-poverty.html"><a href="energy-poverty.html"><i class="fa fa-check"></i><b>28</b> Energy Poverty</a></li>
+<li class="chapter" data-level="29" data-path="carbon-intensity-of-energy.html"><a href="carbon-intensity-of-energy.html"><i class="fa fa-check"></i><b>29</b> Carbon intensity of Energy</a></li>
+<li class="chapter" data-level="30" data-path="rebound-effect-1.html"><a href="rebound-effect-1.html"><i class="fa fa-check"></i><b>30</b> Rebound Effect</a></li>
+<li class="chapter" data-level="31" data-path="fossil-subsidies.html"><a href="fossil-subsidies.html"><i class="fa fa-check"></i><b>31</b> Fossil Subsidies</a></li>
+<li class="chapter" data-level="32" data-path="germany.html"><a href="germany.html"><i class="fa fa-check"></i><b>32</b> Germany</a></li>
+<li class="chapter" data-level="33" data-path="norway.html"><a href="norway.html"><i class="fa fa-check"></i><b>33</b> Norway</a>
+<ul>
+<li class="chapter" data-level="33.1" data-path="norway.html"><a href="norway.html#energy-statistics-1"><i class="fa fa-check"></i><b>33.1</b> Energy Statistics</a></li>
+<li class="chapter" data-level="33.2" data-path="norway.html"><a href="norway.html#energy-policy"><i class="fa fa-check"></i><b>33.2</b> Energy Policy</a>
+<ul>
+<li class="chapter" data-level="33.2.1" data-path="norway.html"><a href="norway.html#energy-policy-history"><i class="fa fa-check"></i><b>33.2.1</b> Energy Policy History</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="30" data-path="serbia.html"><a href="serbia.html"><i class="fa fa-check"></i><b>30</b> Serbia</a></li>
-<li class="chapter" data-level="31" data-path="united-states.html"><a href="united-states.html"><i class="fa fa-check"></i><b>31</b> United States</a></li>
+<li class="chapter" data-level="34" data-path="serbia.html"><a href="serbia.html"><i class="fa fa-check"></i><b>34</b> Serbia</a></li>
+<li class="chapter" data-level="35" data-path="united-states.html"><a href="united-states.html"><i class="fa fa-check"></i><b>35</b> United States</a>
+<ul>
+<li class="chapter" data-level="35.1" data-path="united-states.html"><a href="united-states.html#ira"><i class="fa fa-check"></i><b>35.1</b> IRA</a></li>
+</ul></li>
 <li class="part"><span><b>I Appendices</b></span></li>
 <li class="appendix"><span><b>Appendices</b></span></li>
 <li class="chapter" data-level="A" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>A</b> About</a></li>
 <li class="chapter" data-level="B" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>B</b> Links</a></li>
 <li class="chapter" data-level="C" data-path="news.html"><a href="news.html"><i class="fa fa-check"></i><b>C</b> NEWS</a>
 <ul>
-<li class="chapter" data-level="C.1" data-path="news.html"><a href="news.html#floating-wind-farm"><i class="fa fa-check"></i><b>C.1</b> 221118 Floating Wind Farm</a></li>
-<li class="chapter" data-level="C.2" data-path="news.html"><a href="news.html#silicon-batteries"><i class="fa fa-check"></i><b>C.2</b> 220505 Silicon Batteries</a></li>
-<li class="chapter" data-level="C.3" data-path="news.html"><a href="news.html#europes-energy-crisis"><i class="fa fa-check"></i><b>C.3</b> 220116 Europe’s Energy Crisis</a></li>
-<li class="chapter" data-level="C.4" data-path="news.html"><a href="news.html#novel-lithium-carbon-battery-chemistry"><i class="fa fa-check"></i><b>C.4</b> 211207 Novel lithium-carbon battery chemistry</a></li>
-<li class="chapter" data-level="C.5" data-path="news.html"><a href="news.html#renewables-passing-nuclear"><i class="fa fa-check"></i><b>C.5</b> 210710 Renewables passing Nuclear</a></li>
-<li class="chapter" data-level="C.6" data-path="news.html"><a href="news.html#equinor-triple-uk-hydrogen"><i class="fa fa-check"></i><b>C.6</b> 210629 Equinor triple UK hydrogen</a></li>
-<li class="chapter" data-level="C.7" data-path="news.html"><a href="news.html#crane-battery"><i class="fa fa-check"></i><b>C.7</b> 210604 Crane Battery</a></li>
-<li class="chapter" data-level="C.8" data-path="news.html"><a href="news.html#heatcrete-thermal-storage"><i class="fa fa-check"></i><b>C.8</b> 210427 HeatCrete Thermal Storage</a></li>
-<li class="chapter" data-level="C.9" data-path="news.html"><a href="news.html#gas-is-over"><i class="fa fa-check"></i><b>C.9</b> 210121 “Gas is over”</a></li>
+<li class="chapter" data-level="C.1" data-path="news.html"><a href="news.html#the-case-against-the-us-governments-big-blue-hydrogen-bet"><i class="fa fa-check"></i><b>C.1</b> 231018 The case against the US government’s big ​‘blue hydrogen’ bet</a></li>
+<li class="chapter" data-level="C.2" data-path="news.html"><a href="news.html#sputtering-nuclear-sector"><i class="fa fa-check"></i><b>C.2</b> 221228 Sputtering Nuclear Sector</a></li>
+<li class="chapter" data-level="C.3" data-path="news.html"><a href="news.html#floating-wind-farm"><i class="fa fa-check"></i><b>C.3</b> 221118 Floating Wind Farm</a></li>
+<li class="chapter" data-level="C.4" data-path="news.html"><a href="news.html#silicon-batteries"><i class="fa fa-check"></i><b>C.4</b> 220505 Silicon Batteries</a></li>
+<li class="chapter" data-level="C.5" data-path="news.html"><a href="news.html#europes-energy-crisis"><i class="fa fa-check"></i><b>C.5</b> 220116 Europe’s Energy Crisis</a></li>
+<li class="chapter" data-level="C.6" data-path="news.html"><a href="news.html#novel-lithium-carbon-battery-chemistry"><i class="fa fa-check"></i><b>C.6</b> 211207 Novel lithium-carbon battery chemistry</a></li>
+<li class="chapter" data-level="C.7" data-path="news.html"><a href="news.html#renewables-passing-nuclear"><i class="fa fa-check"></i><b>C.7</b> 210710 Renewables passing Nuclear</a></li>
+<li class="chapter" data-level="C.8" data-path="news.html"><a href="news.html#equinor-triple-uk-hydrogen"><i class="fa fa-check"></i><b>C.8</b> 210629 Equinor triple UK hydrogen</a></li>
+<li class="chapter" data-level="C.9" data-path="news.html"><a href="news.html#crane-battery"><i class="fa fa-check"></i><b>C.9</b> 210604 Crane Battery</a></li>
+<li class="chapter" data-level="C.10" data-path="news.html"><a href="news.html#heatcrete-thermal-storage"><i class="fa fa-check"></i><b>C.10</b> 210427 HeatCrete Thermal Storage</a></li>
+<li class="chapter" data-level="C.11" data-path="news.html"><a href="news.html#gas-is-over"><i class="fa fa-check"></i><b>C.11</b> 210121 “Gas is over”</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/dyrehaugen/rngy" target="blank">On Github</a></li>
@@ -236,10 +283,10 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="wind" class="section level1" number="19">
-<h1><span class="header-section-number">19</span> Wind</h1>
-<div id="installed-capacity-megawatts" class="section level2" number="19.1">
-<h2><span class="header-section-number">19.1</span> Installed Capacity Megawatts</h2>
+<div id="wind" class="section level1 hasAnchor" number="23">
+<h1><span class="header-section-number">23</span> Wind<a href="wind.html#wind" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="installed-capacity-megawatts" class="section level2 hasAnchor" number="23.1">
+<h2><span class="header-section-number">23.1</span> Installed Capacity Megawatts<a href="wind.html#installed-capacity-megawatts" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div class="line-block"></div>
 <table>
 <thead>
@@ -305,15 +352,15 @@
 </table>
 <p><a href="https://www.canarymedia.com/articles/wind/new-york-takes-early-lead-as-large-scale-offshore-wind-starts-rolling-in-the-us">Canary Media (2020) New York takes early lead as large-scale offshore wind starts rolling in the US</a></p>
 </div>
-<div id="icing" class="section level2" number="19.2">
-<h2><span class="header-section-number">19.2</span> Icing</h2>
+<div id="icing" class="section level2 hasAnchor" number="23.2">
+<h2><span class="header-section-number">23.2</span> Icing<a href="wind.html#icing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>Icing can cost wind turbines up to 80% of power production</em></p>
 <p>Wind turbine blades spinning through cold, wet conditions can collect ice nearly a foot thick on the yard-wide tips of their blades.</p>
 <p>That disrupts blade aerodynamics. That disrupts the balance of the entire turbine. And that can disrupt energy production by up to 80 percent.</p>
 <p><a href="https://techxplore.com/news/2021-03-field-icing-turbines-power-production.html">TechExplore</a></p>
 </div>
-<div id="bladeless" class="section level2" number="19.3">
-<h2><span class="header-section-number">19.3</span> Bladeless</h2>
+<div id="bladeless" class="section level2 hasAnchor" number="23.3">
+<h2><span class="header-section-number">23.3</span> Bladeless<a href="wind.html#bladeless" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>David Yáñez, the inventor of Vortex Bladeless, based just outside Madrid,
 has pioneered a turbine design that can harness energy from winds
 without the sweeping white blades considered synonymous with wind power.</p>
@@ -334,8 +381,70 @@ generate electricity from the vibration.</p>
 <p>Today, the design can generate a maximum capacity of 100 to 200 kilowatts, but a new partnership with the German energy firm RWE could increase the potential output from kilowatts to megawatts. A spokesperson for RWE said the pair are currently looking for the ideal kite-flying site in the German countryside.</p>
 <p><img src="fig/vortex_bladeless_3meter.png" /></p>
 <p><a href="https://www.theguardian.com/environment/2021/mar/16/good-vibrations-bladeless-turbines-could-bring-wind-power-to-your-home">Guardian</a></p>
+</div>
+<div id="power-supply-correlation-challenges" class="section level2 hasAnchor" number="23.4">
+<h2><span class="header-section-number">23.4</span> Power Supply Correlation Challenges<a href="wind.html#power-supply-correlation-challenges" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Hjelmeland Abstract</em></p>
+<p>Offshore wind power projects are currently booming around the North Sea. However, there are inherent correlation challenges between wind farms in this area, which has implications for the optimal composition of locations and the scale-up of installed capacities. This paper is aimed at addressing the correlation problem by <em>minimizing the variance of total wind power accumulated around the North Sea</em>. We show that this nonlinear convex optimization problem can be solved by applying the Augmented Lagrangian Algorithm (ALA). <em>The premise of the study is that more interconnections between the EU countries will be prioritized in order to optimize and smooth out the wind power production patterns</em>. A publicly available dataset with historical hour-by-hour data spanning over 20 years was used for the analysis. We explore two distinct scenarios for Norwegian offshore wind development. In the first scenario, we consider the ongoing activities on the European continental side of the North Sea and their implications for Norway. Here, we illustrate <em>the advantages of focusing on expanding wind power capacity in the <strong>northern regions</strong> of Norway</em> to enhance the overall value of the generated wind power. In contrast, the second reference scenario neglects these interconnections, resulting in a significantly greater concentration of offshore wind development in the southern parts of Norway, particularly in Sørlige Nordsjø II. Additionally, our work estimates the wind power correlation coefficient in the North Sea as a function of distance. Furthermore, we analyze deviations and intermittencies in North Sea wind power over various time intervals, emphasizing that the perceived <em>integration challenges are highly dependent on the chosen time resolution</em> in the analysis.</p>
+<p><em>Hjelmeland Memo</em></p>
+<p>The scientific literature lacks detailed studies regarding the ecological risks of offshore wind power.</p>
+<p>There are several initiatives underway to coordinate the development of offshore wind around the North Sea. For instance, the North Sea Energy Cooperation (NSEC) by the European Commission supports and facilitates the development of offshore grid development and the large potential for renewable energy in the region6. The group includes countries like the Netherlands, Belgium, Germany, Denmark, Norway, and Sweden. Another ongoing project is the North Sea Wind Power Hub (NSWPH) that aim to ensure that offshore wind development does not become fragmented, country by country, but transnational and coordinated.</p>
+<p>A core concept is to build a large artificial island in the North Sea that would serve as a hub for connecting offshore wind farms in the region. The project was founded by Transmission System Operators (TSOs) from Denmark, Germany, and Netherlands.</p>
+<p>The Norwegian government has stated plans to grant licenses for 30GW offshore wind by 2040. There are plans for over 500GW of installed offshore wind around the North Sea.</p>
+<p><img src="fig/north_sea_wind.png" /></p>
+<p><em>Figure: Map over the North Sea showing the status of the wind farms and map over the areas the Norwegian water resources and energy directorate (NVE) has pointed out as potential offshore wind areas.</em></p>
+<p>Norway’s efforts to harness offshore wind power are well underway, with an 88MW floating wind farm, Hywind Tampen, officially launched in 2023. It is the world’s first floating wind farm to power offshore oil and gas platforms, providing electricity for the Norwegian North Sea’s Snorre and Gullfaks oil and gas fields. The estimated investment cost of Hywind Tampen was $691 million or $7.9 million per MW, with the Norwegian authorities pledging up to $262 million via Enova subsidies. In addition, the Norwegian business sector’s NOx fund offered up to $64 million. The wind farm is expected to meet about 35% of the electricity demand of the two fields. This will cut CO2 emissions from the fields by about 200,000 tonnes annually.</p>
+<p><a href="https://www.mdpi.com/1996-1073/15/17/6446">Studies</a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> that the wind power sectors in countries such as France, Germany, and Denmark will require continued subsidies to remain profitable</p>
+<p><strong>Cannibalization</strong></p>
+<p>To understand the impact that larger shares of intermittent energy have on the grid, we may introduce the cannibalization effect and its influence on the capture price obtained by intermittent energy sources17. In essence, the cannibalization effect suggests decreasing power prices when a substantial amount of energy is supplied simultaneously. As a result, the capture price obtained by these power plants could be lower than that obtained by baseload power plants, which can operate continuously.</p>
+<p>Reducing the correlation between various offshore wind farms can lessen the overall power variability across the entire fleet. Enhanced stability in power output, in turn, increases the chances of generating electricity during peak market prices, thus leading to a higher capture rate.</p>
+<p>Consider, for instance, that strategic placement of these wind farms might lift the capture rate from 80 to 85%. For a hypothetical 30 GW Norwegian offshore wind power fleet, this difference is significant. With a 50% capacity factor and a baseload power price of $60/MWh, this 5% boost in the capture rate could result in $394 million in additional annual revenues, equivalent to $3/MWh. This scenario highlights the importance and potential financial benefits of smart placement and operation strategies.</p>
+<p>In light of these considerations, this paper focuses on exploring the correlation challenges related to offshore wind power in the North Sea to evaluate the potential for increasing its value, with a focus on the Norwegian case.</p>
+<p>The concept of complementarity between wind and solar power has been suggested as a potential hybrid energy system solution to reduce seasonal variability, though its effectiveness varies depending on the temporal scale</p>
+<p>Another innovative approach involves co-locating offshore wind and wave power to mitigate variability in individual renewable energy sources.</p>
+<p>There are several proposals for producing hydrogen as an ancillary service to address offshore wind power variability and facilitate further expansion.</p>
+<p>A hybrid hydrogen-battery storage system has been presented as a promising solution.</p>
+<p>Alternative approaches, such as demand flexibility measures, have been proposed in lieu of strategically distributing wind farms.</p>
+<p>This paper aims to contribute to the optimization of offshore wind farm placement by introducing a method to reduce overall correlation among buildouts, thus enhancing geographical smoothing. This paper focuses on a particular research gap that has been identified. A comprehensive analysis of the interactions between different sites within a country and its interactions with other North Sea producers is currently missing. We aim to fill that gap with a focused case study for Norway. The primary contributions of this paper include:</p>
+<ol style="list-style-type: decimal">
+<li><p>A correlation analysis of offshore wind power in Northern Europe; and,</p></li>
+<li><p>A methodology to minimize the variance of a wind power fleet using the Augmented Lagrangian Algorithm (ALA), which has the benefit of obtaining the unique optimal solution to nonlinear, convex optimization problems.</p></li>
+</ol>
+<p><strong>A weighted combination of the proposed Norwegian offshore wind farm locations ensures the least intermittent power output. This approach is fundamentally different from focusing on building out in locations with the best resources and being less concerned about the variability. </strong></p>
+<p><strong>Algorithm</strong></p>
+<p>A recent work has investigated the potential for strategically distributing wind farms in Brazil to significantly mitigate seasonal variability in offshore wind power using a genetic algorithm (GA)33. Given the nonlinear and convex nature of our optimization problem, we have determined that our proposed ALA is a more suitable choice than GA.</p>
+<p><strong>Marine spatial planning (MSP)</strong></p>
+<p>Marine spatial planning (MSP) represents another avenue for coordinating offshore wind buildouts with other marine activities, thereby maximizing synergies with offshore energy generation</p>
+<p>Marine spatial planning (MSP) represents another avenue for coordinating offshore wind buildouts with other marine activities, thereby maximizing synergies with offshore energy generation</p>
+<p>Marine spatial planning (MSP) represents another avenue for coordinating offshore wind buildouts with other marine activities, thereby maximizing synergies with offshore energy generation</p>
+<p><img src="fig/wind_power_correlation.png" /></p>
+<p><em>Figure: Scatter plot of correlation coefficients (r) between different wind farms in North Sea with respect to distance and exponential curve fit of the data points. Results include hourly (1h), daily (24h), weekly (168h), and monthly (720h) time resolutions.</em></p>
+<p>Correlation coefficients drop below 0.5 at distances exceeding 384km at an hourly resolution and 808km at a weekly resolution.</p>
+<p>During longer periods of wind drought, such as the one experienced in Europe in 2021 , the geographical dispersion of wind power farms becomes less effective, emphasizing the need for backup capacity and storage for longer durations.</p>
+<p>The majority of correlation coefficients are positive, implying that negative correlation, which would be advantageous for risk diversification, is rare.</p>
+<p>Geographical dispersion of wind farms over long distances can significantly smoothen wind power output, but this effectiveness decreases over extended time periods.</p>
+<p>Given that the North Sea spans approximately 580 km in width and 960 km in length, wind farms established by individual countries will inevitably impact others.</p>
+<p>The collective output from proposed Norwegian offshore wind farms exhibits far less variability than individual parks.</p>
+<p>If the objective is to minimize variance, <strong>less than a third</strong> of the buildouts will occur in southern Norway.</p>
+<p>Tradeoff between maximizing wind power output and reducing correlation. This implies a need for strategic objective weighting, particularly when the ambition to diminish correlation competes with reducing the levelized cost of electricity (LCOE). Higher correlation can indeed lead to power price cannibalism.</p>
+<p><img src="fig/norwegian_offshore_wind.png" /></p>
+<p><em>Figure: The scale of the dots for each area represents how offshore wind power should be built out to reduce the variance of the wind power fleet as a whole with hourly (1h) resolution. Note how the model gives little weight to the Norwegian offshore wind farms in the south (especially Sørlige Nordsjø II) when including wind farms for all countries around the North Sea.</em></p>
+<p>Prioritizing the development of the wind resource areas farthest away is key to reducing wind power variance around the North Sea.</p>
+<p>As there is a lot of activity on the European continental side of the North Sea8, it would be desirable to find ways to reduce the overall wind power correlation. Building a significant portion of Norwegian offshore wind capacity in the northern regions of Norway aligns with our optimization.</p>
+<p>This poses a dilemma, as these remote locations are also the costliest to develop. In a scenario where one accepts a higher wind power correlation, there will be more sporadic energy scarcity and abundance, and more of the aforementioned backup capacity will be required.</p>
+<p>By 2031, Europe will only be capable of storing about 10 minutes of its electricity in batteries (i.e. 89GWh)</p>
+<p>Norwegian hydropower, with about half of Europe’s storage capacity (i.e. 87TWh), can play a role. However, the hydropower fleet’s dispatchable power capacity is limited to just 30GW.</p>
+<p>While expanding the Northern offshore wind farms would indeed lead to decreased correlation, it might not be economically feasible.
+This claim is backed by the historical costs of transmission grids in Norway, which stand at approximately $1.2 million per km per GW59. Considering Norway’s length of 1748km, the cost of a transmission line across the country would approximate $2100 million per GW transmission. This cost has to be contrasted with the potential increase in the capture rate, which could result in savings annually of $394 million, by 5% increase capture rate, as explained in the introduction. The net present value of such a hypothetical improvement is $4600 million, assuming an economic lifetime of 25 years and a discount rate of 7%. Clearly, the financial viability of such a project needs to be studied in further detail.
+<a href="https://www.nature.com/articles/s41598-023-45829-2?fbclid=IwAR0kergJWPNsB7rdkjihGHrFis4S_6k9qMv-ad3bFdEfJTf9SFfcl2Wqszs">Hjelmeland (2023) Correlation challenges for North Sea offshore wind power: a Norwegian case study</a></p>
 
 </div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>Alonzo, B., Concettini, S., Creti, A., Drobinski, P. &amp; Tankov, P. Profitability and revenue uncertainty of wind farms in Western Europe in present and future climate. Energies 15, 6446 (2022).<a href="wind.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
@@ -347,7 +456,6 @@ generate electricity from the vibration.</p>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -388,7 +496,7 @@ gitbook.start({
 },
 "download": ["rngy.pdf", "rngy.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {
@@ -404,7 +512,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');

@@ -4,19 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>13 Hydrogen | Energy</title>
-  <meta name="description" content="13 Hydrogen | Energy" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <title>16 Hydrogen | Energy</title>
+  <meta name="description" content="16 Hydrogen | Energy" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="13 Hydrogen | Energy" />
+  <meta property="og:title" content="16 Hydrogen | Energy" />
   <meta property="og:type" content="book" />
-  
   
   
   <meta name="github-repo" content="dyrehaugen/rngy" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="13 Hydrogen | Energy" />
+  <meta name="twitter:title" content="16 Hydrogen | Energy" />
   
   
   
@@ -24,7 +23,7 @@
 <meta name="author" content="Dyrehaugen Web Notebook" />
 
 
-<meta name="date" content="2022-12-04" />
+<meta name="date" content="2023-11-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="hydro-power.html"/>
 <link rel="next" href="nuclear.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,13 +49,16 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -80,6 +82,7 @@
 <li class="chapter" data-level="2.1" data-path="energy-overview.html"><a href="energy-overview.html#energy-civilization"><i class="fa fa-check"></i><b>2.1</b> Energy Civilization</a></li>
 <li class="chapter" data-level="2.2" data-path="energy-overview.html"><a href="energy-overview.html#world-energy-outlook"><i class="fa fa-check"></i><b>2.2</b> World Energy Outlook</a></li>
 <li class="chapter" data-level="2.3" data-path="energy-overview.html"><a href="energy-overview.html#energy-power-game"><i class="fa fa-check"></i><b>2.3</b> Energy Power Game</a></li>
+<li class="chapter" data-level="2.4" data-path="energy-overview.html"><a href="energy-overview.html#world-energy-consumption-per-capita"><i class="fa fa-check"></i><b>2.4</b> World Energy Consumption per Capita</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="energy-demand.html"><a href="energy-demand.html"><i class="fa fa-check"></i><b>3</b> Energy Demand</a>
 <ul>
@@ -90,131 +93,175 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="energy-intensity.html"><a href="energy-intensity.html#power-density"><i class="fa fa-check"></i><b>4.1</b> Power Density</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="energy-development.html"><a href="energy-development.html"><i class="fa fa-check"></i><b>5</b> Energy Development</a></li>
-<li class="chapter" data-level="6" data-path="energy-transition.html"><a href="energy-transition.html"><i class="fa fa-check"></i><b>6</b> Energy Transition</a>
+<li class="chapter" data-level="5" data-path="energy-return.html"><a href="energy-return.html"><i class="fa fa-check"></i><b>5</b> Energy Return</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="energy-transition.html"><a href="energy-transition.html#minerals-in-transition"><i class="fa fa-check"></i><b>6.1</b> Minerals in Transition</a></li>
-<li class="chapter" data-level="6.2" data-path="energy-transition.html"><a href="energy-transition.html#iea-net-zero-2050"><i class="fa fa-check"></i><b>6.2</b> IEA Net-zero 2050</a></li>
-<li class="chapter" data-level="6.3" data-path="energy-transition.html"><a href="energy-transition.html#transition-risks"><i class="fa fa-check"></i><b>6.3</b> Transition Risks</a></li>
-<li class="chapter" data-level="6.4" data-path="energy-transition.html"><a href="energy-transition.html#transition-forecasting"><i class="fa fa-check"></i><b>6.4</b> Transition Forecasting</a></li>
+<li class="chapter" data-level="5.1" data-path="energy-return.html"><a href="energy-return.html#eroei"><i class="fa fa-check"></i><b>5.1</b> EROEI</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="batteries.html"><a href="batteries.html"><i class="fa fa-check"></i><b>7</b> Batteries</a>
+<li class="chapter" data-level="6" data-path="energy-development.html"><a href="energy-development.html"><i class="fa fa-check"></i><b>6</b> Energy Development</a></li>
+<li class="chapter" data-level="7" data-path="energy-transition.html"><a href="energy-transition.html"><i class="fa fa-check"></i><b>7</b> Energy Transition</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="batteries.html"><a href="batteries.html#lithium"><i class="fa fa-check"></i><b>7.1</b> Lithium</a>
+<li class="chapter" data-level="7.1" data-path="energy-transition.html"><a href="energy-transition.html#minerals-in-transition"><i class="fa fa-check"></i><b>7.1</b> Minerals in Transition</a>
 <ul>
-<li class="chapter" data-level="7.1.1" data-path="batteries.html"><a href="batteries.html#portugals-lithium-reserves"><i class="fa fa-check"></i><b>7.1.1</b> Portugal’s Lithium Reserves</a></li>
+<li class="chapter" data-level="7.1.1" data-path="energy-transition.html"><a href="energy-transition.html#copper"><i class="fa fa-check"></i><b>7.1.1</b> Copper</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="batteries.html"><a href="batteries.html#lithium-ion-batteries-libs"><i class="fa fa-check"></i><b>7.2</b> Lithium-ion Batteries (LIBs)</a></li>
-<li class="chapter" data-level="7.3" data-path="batteries.html"><a href="batteries.html#iron-air"><i class="fa fa-check"></i><b>7.3</b> Iron-Air</a></li>
-<li class="chapter" data-level="7.4" data-path="batteries.html"><a href="batteries.html#flow-batteries"><i class="fa fa-check"></i><b>7.4</b> Flow Batteries</a></li>
-<li class="chapter" data-level="7.5" data-path="batteries.html"><a href="batteries.html#zinc"><i class="fa fa-check"></i><b>7.5</b> Zinc</a></li>
-<li class="chapter" data-level="7.6" data-path="batteries.html"><a href="batteries.html#sodium-ion"><i class="fa fa-check"></i><b>7.6</b> Sodium-ion</a></li>
-<li class="chapter" data-level="7.7" data-path="batteries.html"><a href="batteries.html#liquid-metal"><i class="fa fa-check"></i><b>7.7</b> Liquid-Metal</a></li>
-<li class="chapter" data-level="7.8" data-path="batteries.html"><a href="batteries.html#quantumscape"><i class="fa fa-check"></i><b>7.8</b> QuantumScape</a></li>
-<li class="chapter" data-level="7.9" data-path="batteries.html"><a href="batteries.html#pumped-hydro"><i class="fa fa-check"></i><b>7.9</b> Pumped Hydro</a></li>
-<li class="chapter" data-level="7.10" data-path="batteries.html"><a href="batteries.html#flow-batteries-1"><i class="fa fa-check"></i><b>7.10</b> Flow Batteries</a></li>
-<li class="chapter" data-level="7.11" data-path="batteries.html"><a href="batteries.html#mechnical-energy-storage"><i class="fa fa-check"></i><b>7.11</b> Mechnical Energy Storage</a></li>
-<li class="chapter" data-level="7.12" data-path="batteries.html"><a href="batteries.html#thermal-storage"><i class="fa fa-check"></i><b>7.12</b> Thermal Storage</a></li>
-<li class="chapter" data-level="7.13" data-path="batteries.html"><a href="batteries.html#software-market-flex"><i class="fa fa-check"></i><b>7.13</b> Software (Market Flex)</a></li>
-<li class="chapter" data-level="7.14" data-path="batteries.html"><a href="batteries.html#compressed-air"><i class="fa fa-check"></i><b>7.14</b> Compressed Air</a></li>
+<li class="chapter" data-level="7.2" data-path="energy-transition.html"><a href="energy-transition.html#iea-net-zero-2050"><i class="fa fa-check"></i><b>7.2</b> IEA Net-zero 2050</a></li>
+<li class="chapter" data-level="7.3" data-path="energy-transition.html"><a href="energy-transition.html#transition-risks"><i class="fa fa-check"></i><b>7.3</b> Transition Risks</a></li>
+<li class="chapter" data-level="7.4" data-path="energy-transition.html"><a href="energy-transition.html#transition-forecasting"><i class="fa fa-check"></i><b>7.4</b> Transition Forecasting</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="amoniac.html"><a href="amoniac.html"><i class="fa fa-check"></i><b>8</b> Amoniac</a></li>
-<li class="chapter" data-level="9" data-path="bio-fuel.html"><a href="bio-fuel.html"><i class="fa fa-check"></i><b>9</b> Bio Fuel</a></li>
-<li class="chapter" data-level="10" data-path="fuel-cells.html"><a href="fuel-cells.html"><i class="fa fa-check"></i><b>10</b> Fuel Cells</a></li>
-<li class="chapter" data-level="11" data-path="geothermal.html"><a href="geothermal.html"><i class="fa fa-check"></i><b>11</b> Geothermal</a>
+<li class="chapter" data-level="8" data-path="batteries.html"><a href="batteries.html"><i class="fa fa-check"></i><b>8</b> Batteries</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="geothermal.html"><a href="geothermal.html#heat-storage"><i class="fa fa-check"></i><b>11.1</b> Heat Storage</a></li>
-<li class="chapter" data-level="11.2" data-path="geothermal.html"><a href="geothermal.html#deep-drilling"><i class="fa fa-check"></i><b>11.2</b> Deep Drilling</a>
+<li class="chapter" data-level="8.1" data-path="batteries.html"><a href="batteries.html#lithium"><i class="fa fa-check"></i><b>8.1</b> Lithium</a>
 <ul>
-<li class="chapter" data-level="11.2.1" data-path="geothermal.html"><a href="geothermal.html#ultra-deep-drilling"><i class="fa fa-check"></i><b>11.2.1</b> Ultra Deep Drilling</a></li>
-<li class="chapter" data-level="11.2.2" data-path="geothermal.html"><a href="geothermal.html#drilling-technology"><i class="fa fa-check"></i><b>11.2.2</b> Drilling Technology</a></li>
+<li class="chapter" data-level="8.1.1" data-path="batteries.html"><a href="batteries.html#portugals-lithium-reserves"><i class="fa fa-check"></i><b>8.1.1</b> Portugal’s Lithium Reserves</a></li>
 </ul></li>
-<li class="chapter" data-level="11.3" data-path="geothermal.html"><a href="geothermal.html#nevada"><i class="fa fa-check"></i><b>11.3</b> Nevada</a></li>
-<li class="chapter" data-level="11.4" data-path="geothermal.html"><a href="geothermal.html#china"><i class="fa fa-check"></i><b>11.4</b> China</a></li>
-<li class="chapter" data-level="11.5" data-path="geothermal.html"><a href="geothermal.html#us"><i class="fa fa-check"></i><b>11.5</b> US</a></li>
+<li class="chapter" data-level="8.2" data-path="batteries.html"><a href="batteries.html#lithium-ion-batteries-libs"><i class="fa fa-check"></i><b>8.2</b> Lithium-ion Batteries (LIBs)</a></li>
+<li class="chapter" data-level="8.3" data-path="batteries.html"><a href="batteries.html#nickel-hydrogen"><i class="fa fa-check"></i><b>8.3</b> Nickel-Hydrogen</a></li>
+<li class="chapter" data-level="8.4" data-path="batteries.html"><a href="batteries.html#iron-air"><i class="fa fa-check"></i><b>8.4</b> Iron-Air</a></li>
+<li class="chapter" data-level="8.5" data-path="batteries.html"><a href="batteries.html#flow-batteries"><i class="fa fa-check"></i><b>8.5</b> Flow Batteries</a></li>
+<li class="chapter" data-level="8.6" data-path="batteries.html"><a href="batteries.html#zinc"><i class="fa fa-check"></i><b>8.6</b> Zinc</a></li>
+<li class="chapter" data-level="8.7" data-path="batteries.html"><a href="batteries.html#sodium-ion"><i class="fa fa-check"></i><b>8.7</b> Sodium-ion</a></li>
+<li class="chapter" data-level="8.8" data-path="batteries.html"><a href="batteries.html#sodium-sulphur"><i class="fa fa-check"></i><b>8.8</b> Sodium-Sulphur</a></li>
+<li class="chapter" data-level="8.9" data-path="batteries.html"><a href="batteries.html#liquid-metal"><i class="fa fa-check"></i><b>8.9</b> Liquid-Metal</a></li>
+<li class="chapter" data-level="8.10" data-path="batteries.html"><a href="batteries.html#quantumscape"><i class="fa fa-check"></i><b>8.10</b> QuantumScape</a></li>
+<li class="chapter" data-level="8.11" data-path="batteries.html"><a href="batteries.html#co2"><i class="fa fa-check"></i><b>8.11</b> CO2</a></li>
+<li class="chapter" data-level="8.12" data-path="batteries.html"><a href="batteries.html#graphene"><i class="fa fa-check"></i><b>8.12</b> Graphene</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="hydro-power.html"><a href="hydro-power.html"><i class="fa fa-check"></i><b>12</b> Hydro Power</a></li>
-<li class="chapter" data-level="13" data-path="hydrogen.html"><a href="hydrogen.html"><i class="fa fa-check"></i><b>13</b> Hydrogen</a>
+<li class="chapter" data-level="9" data-path="energy-storage.html"><a href="energy-storage.html"><i class="fa fa-check"></i><b>9</b> Energy Storage</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="hydrogen.html"><a href="hydrogen.html#home-hydrogen"><i class="fa fa-check"></i><b>13.1</b> Home Hydrogen</a></li>
-<li class="chapter" data-level="13.2" data-path="hydrogen.html"><a href="hydrogen.html#green-vs-blue-hdrogen"><i class="fa fa-check"></i><b>13.2</b> Green vs Blue Hdrogen</a></li>
-<li class="chapter" data-level="13.3" data-path="hydrogen.html"><a href="hydrogen.html#wind-to-hydrogen"><i class="fa fa-check"></i><b>13.3</b> Wind to Hydrogen</a></li>
-<li class="chapter" data-level="13.4" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-aviation"><i class="fa fa-check"></i><b>13.4</b> Hydrogen Aviation</a></li>
-<li class="chapter" data-level="13.5" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen-cost-reduction"><i class="fa fa-check"></i><b>13.5</b> Green Hydrogen Cost Reduction</a></li>
+<li class="chapter" data-level="9.1" data-path="energy-storage.html"><a href="energy-storage.html#pumped-hydro"><i class="fa fa-check"></i><b>9.1</b> Pumped Hydro</a></li>
+<li class="chapter" data-level="9.2" data-path="energy-storage.html"><a href="energy-storage.html#flow-batteries-1"><i class="fa fa-check"></i><b>9.2</b> Flow Batteries</a></li>
+<li class="chapter" data-level="9.3" data-path="energy-storage.html"><a href="energy-storage.html#mechnical-energy-storage"><i class="fa fa-check"></i><b>9.3</b> Mechnical Energy Storage</a></li>
+<li class="chapter" data-level="9.4" data-path="energy-storage.html"><a href="energy-storage.html#thermal-storage"><i class="fa fa-check"></i><b>9.4</b> Thermal Storage</a></li>
+<li class="chapter" data-level="9.5" data-path="energy-storage.html"><a href="energy-storage.html#software-market-flex"><i class="fa fa-check"></i><b>9.5</b> Software (Market Flex)</a></li>
+<li class="chapter" data-level="9.6" data-path="energy-storage.html"><a href="energy-storage.html#compressed-air"><i class="fa fa-check"></i><b>9.6</b> Compressed Air</a></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="nuclear.html"><a href="nuclear.html"><i class="fa fa-check"></i><b>14</b> Nuclear</a>
+<li class="chapter" data-level="10" data-path="amoniac.html"><a href="amoniac.html"><i class="fa fa-check"></i><b>10</b> Amoniac</a></li>
+<li class="chapter" data-level="11" data-path="aviation-fuel.html"><a href="aviation-fuel.html"><i class="fa fa-check"></i><b>11</b> Aviation Fuel</a></li>
+<li class="chapter" data-level="12" data-path="bio-fuel.html"><a href="bio-fuel.html"><i class="fa fa-check"></i><b>12</b> Bio Fuel</a></li>
+<li class="chapter" data-level="13" data-path="fuel-cells.html"><a href="fuel-cells.html"><i class="fa fa-check"></i><b>13</b> Fuel Cells</a></li>
+<li class="chapter" data-level="14" data-path="geothermal.html"><a href="geothermal.html"><i class="fa fa-check"></i><b>14</b> Geothermal</a>
 <ul>
-<li class="chapter" data-level="14.1" data-path="nuclear.html"><a href="nuclear.html#fukushima"><i class="fa fa-check"></i><b>14.1</b> Fukushima</a></li>
-<li class="chapter" data-level="14.2" data-path="nuclear.html"><a href="nuclear.html#james-hansens-position"><i class="fa fa-check"></i><b>14.2</b> James Hansen’s Position</a></li>
-<li class="chapter" data-level="14.3" data-path="nuclear.html"><a href="nuclear.html#fusion---iter"><i class="fa fa-check"></i><b>14.3</b> Fusion - ITER</a></li>
-<li class="chapter" data-level="14.4" data-path="nuclear.html"><a href="nuclear.html#thorium"><i class="fa fa-check"></i><b>14.4</b> Thorium</a></li>
-<li class="chapter" data-level="14.5" data-path="nuclear.html"><a href="nuclear.html#melted-salt-reactors"><i class="fa fa-check"></i><b>14.5</b> Melted Salt Reactors</a></li>
-</ul></li>
-<li class="chapter" data-level="15" data-path="oil.html"><a href="oil.html"><i class="fa fa-check"></i><b>15</b> Oil</a>
+<li class="chapter" data-level="14.1" data-path="geothermal.html"><a href="geothermal.html#heat-storage"><i class="fa fa-check"></i><b>14.1</b> Heat Storage</a></li>
+<li class="chapter" data-level="14.2" data-path="geothermal.html"><a href="geothermal.html#deep-drilling"><i class="fa fa-check"></i><b>14.2</b> Deep Drilling</a>
 <ul>
-<li class="chapter" data-level="15.1" data-path="oil.html"><a href="oil.html#carbon-intensity-of-crude-oil-production"><i class="fa fa-check"></i><b>15.1</b> Carbon Intensity of Crude Oil Production</a></li>
+<li class="chapter" data-level="14.2.1" data-path="geothermal.html"><a href="geothermal.html#ultra-deep-drilling"><i class="fa fa-check"></i><b>14.2.1</b> Ultra Deep Drilling</a></li>
+<li class="chapter" data-level="14.2.2" data-path="geothermal.html"><a href="geothermal.html#drilling-technology"><i class="fa fa-check"></i><b>14.2.2</b> Drilling Technology</a></li>
 </ul></li>
-<li class="chapter" data-level="16" data-path="renewable.html"><a href="renewable.html"><i class="fa fa-check"></i><b>16</b> Renewable</a></li>
-<li class="chapter" data-level="17" data-path="solar.html"><a href="solar.html"><i class="fa fa-check"></i><b>17</b> Solar</a>
+<li class="chapter" data-level="14.3" data-path="geothermal.html"><a href="geothermal.html#enhanced-geothermal"><i class="fa fa-check"></i><b>14.3</b> Enhanced Geothermal</a></li>
+<li class="chapter" data-level="14.4" data-path="geothermal.html"><a href="geothermal.html#us---nevada"><i class="fa fa-check"></i><b>14.4</b> US - Nevada</a></li>
+<li class="chapter" data-level="14.5" data-path="geothermal.html"><a href="geothermal.html#china"><i class="fa fa-check"></i><b>14.5</b> China</a></li>
+<li class="chapter" data-level="14.6" data-path="geothermal.html"><a href="geothermal.html#us"><i class="fa fa-check"></i><b>14.6</b> US</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="hydro-power.html"><a href="hydro-power.html"><i class="fa fa-check"></i><b>15</b> Hydro Power</a></li>
+<li class="chapter" data-level="16" data-path="hydrogen.html"><a href="hydrogen.html"><i class="fa fa-check"></i><b>16</b> Hydrogen</a>
 <ul>
-<li class="chapter" data-level="17.1" data-path="solar.html"><a href="solar.html#software-drives-solar-costs"><i class="fa fa-check"></i><b>17.1</b> Software drives Solar Costs</a></li>
-<li class="chapter" data-level="17.2" data-path="solar.html"><a href="solar.html#efficiency"><i class="fa fa-check"></i><b>17.2</b> Efficiency</a></li>
-</ul></li>
-<li class="chapter" data-level="18" data-path="ocean-wave-power.html"><a href="ocean-wave-power.html"><i class="fa fa-check"></i><b>18</b> Ocean Wave Power</a></li>
-<li class="chapter" data-level="19" data-path="wind.html"><a href="wind.html"><i class="fa fa-check"></i><b>19</b> Wind</a>
+<li class="chapter" data-level="16.1" data-path="hydrogen.html"><a href="hydrogen.html#home-heating-hydrogen"><i class="fa fa-check"></i><b>16.1</b> Home heating Hydrogen</a></li>
+<li class="chapter" data-level="16.2" data-path="hydrogen.html"><a href="hydrogen.html#green-vs-blue-hydrogen"><i class="fa fa-check"></i><b>16.2</b> Green vs Blue Hydrogen</a></li>
+<li class="chapter" data-level="16.3" data-path="hydrogen.html"><a href="hydrogen.html#white-hydrogen"><i class="fa fa-check"></i><b>16.3</b> White Hydrogen</a>
 <ul>
-<li class="chapter" data-level="19.1" data-path="wind.html"><a href="wind.html#installed-capacity-megawatts"><i class="fa fa-check"></i><b>19.1</b> Installed Capacity Megawatts</a></li>
-<li class="chapter" data-level="19.2" data-path="wind.html"><a href="wind.html#icing"><i class="fa fa-check"></i><b>19.2</b> Icing</a></li>
-<li class="chapter" data-level="19.3" data-path="wind.html"><a href="wind.html#bladeless"><i class="fa fa-check"></i><b>19.3</b> Bladeless</a></li>
+<li class="chapter" data-level="16.3.1" data-path="hydrogen.html"><a href="hydrogen.html#how-green-is-blue-hydrogen"><i class="fa fa-check"></i><b>16.3.1</b> How green is blue hydrogen?</a></li>
 </ul></li>
-<li class="chapter" data-level="20" data-path="varia.html"><a href="varia.html"><i class="fa fa-check"></i><b>20</b> Varia</a>
+<li class="chapter" data-level="16.4" data-path="hydrogen.html"><a href="hydrogen.html#wind-to-hydrogen"><i class="fa fa-check"></i><b>16.4</b> Wind to Hydrogen</a></li>
+<li class="chapter" data-level="16.5" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-aviation"><i class="fa fa-check"></i><b>16.5</b> Hydrogen Aviation</a></li>
+<li class="chapter" data-level="16.6" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen-cost-reduction"><i class="fa fa-check"></i><b>16.6</b> Green Hydrogen Cost Reduction</a></li>
+<li class="chapter" data-level="16.7" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen--gas-of-the-future"><i class="fa fa-check"></i><b>16.7</b> Green Hydrogen- ‘Gas of the Future?’</a></li>
+<li class="chapter" data-level="16.8" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-mirage"><i class="fa fa-check"></i><b>16.8</b> Hydrogen Mirage?</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="nuclear.html"><a href="nuclear.html"><i class="fa fa-check"></i><b>17</b> Nuclear</a>
 <ul>
-<li class="chapter" data-level="20.1" data-path="varia.html"><a href="varia.html#us-legislation"><i class="fa fa-check"></i><b>20.1</b> US Legislation</a></li>
+<li class="chapter" data-level="17.1" data-path="nuclear.html"><a href="nuclear.html#fukushima"><i class="fa fa-check"></i><b>17.1</b> Fukushima</a></li>
+<li class="chapter" data-level="17.2" data-path="nuclear.html"><a href="nuclear.html#james-hansens-position"><i class="fa fa-check"></i><b>17.2</b> James Hansen’s Position</a></li>
+<li class="chapter" data-level="17.3" data-path="nuclear.html"><a href="nuclear.html#fusion---iter"><i class="fa fa-check"></i><b>17.3</b> Fusion - ITER</a></li>
+<li class="chapter" data-level="17.4" data-path="nuclear.html"><a href="nuclear.html#fusion---helion"><i class="fa fa-check"></i><b>17.4</b> Fusion - Helion</a></li>
+<li class="chapter" data-level="17.5" data-path="nuclear.html"><a href="nuclear.html#fusion---tiny"><i class="fa fa-check"></i><b>17.5</b> Fusion - Tiny</a></li>
+<li class="chapter" data-level="17.6" data-path="nuclear.html"><a href="nuclear.html#fusion---neither-clean-nor-cheap"><i class="fa fa-check"></i><b>17.6</b> Fusion - Neither clean nor cheap</a></li>
+<li class="chapter" data-level="17.7" data-path="nuclear.html"><a href="nuclear.html#thorium"><i class="fa fa-check"></i><b>17.7</b> Thorium</a></li>
+<li class="chapter" data-level="17.8" data-path="nuclear.html"><a href="nuclear.html#melted-salt-reactors"><i class="fa fa-check"></i><b>17.8</b> Melted Salt Reactors</a></li>
+<li class="chapter" data-level="17.9" data-path="nuclear.html"><a href="nuclear.html#uranium-supply-chain"><i class="fa fa-check"></i><b>17.9</b> Uranium Supply Chain</a></li>
 </ul></li>
-<li class="chapter" data-level="21" data-path="distributed-energy-resources.html"><a href="distributed-energy-resources.html"><i class="fa fa-check"></i><b>21</b> Distributed Energy Resources</a></li>
-<li class="chapter" data-level="22" data-path="virtual-power-plants.html"><a href="virtual-power-plants.html"><i class="fa fa-check"></i><b>22</b> Virtual Power Plants</a></li>
-<li class="chapter" data-level="23" data-path="energy-use.html"><a href="energy-use.html"><i class="fa fa-check"></i><b>23</b> Energy Use</a>
+<li class="chapter" data-level="18" data-path="ocean-turbines.html"><a href="ocean-turbines.html"><i class="fa fa-check"></i><b>18</b> Ocean turbines</a></li>
+<li class="chapter" data-level="19" data-path="oil.html"><a href="oil.html"><i class="fa fa-check"></i><b>19</b> Oil</a>
 <ul>
-<li class="chapter" data-level="23.1" data-path="energy-use.html"><a href="energy-use.html#energy-efficiency"><i class="fa fa-check"></i><b>23.1</b> Energy Efficiency</a>
+<li class="chapter" data-level="19.1" data-path="oil.html"><a href="oil.html#carbon-intensity-of-crude-oil-production"><i class="fa fa-check"></i><b>19.1</b> Carbon Intensity of Crude Oil Production</a></li>
+</ul></li>
+<li class="chapter" data-level="20" data-path="renewable.html"><a href="renewable.html"><i class="fa fa-check"></i><b>20</b> Renewable</a>
 <ul>
-<li class="chapter" data-level="23.1.1" data-path="energy-use.html"><a href="energy-use.html#rebound-effect"><i class="fa fa-check"></i><b>23.1.1</b> Rebound effect</a></li>
+<li class="chapter" data-level="20.1" data-path="renewable.html"><a href="renewable.html#green-energy-a-dead-end"><i class="fa fa-check"></i><b>20.1</b> Green energy: A Dead End</a></li>
 </ul></li>
-<li class="chapter" data-level="23.2" data-path="energy-use.html"><a href="energy-use.html#urbanization"><i class="fa fa-check"></i><b>23.2</b> Urbanization</a></li>
-<li class="chapter" data-level="23.3" data-path="energy-use.html"><a href="energy-use.html#green-steel"><i class="fa fa-check"></i><b>23.3</b> Green Steel</a>
+<li class="chapter" data-level="21" data-path="solar.html"><a href="solar.html"><i class="fa fa-check"></i><b>21</b> Solar</a>
 <ul>
-<li class="chapter" data-level="23.3.1" data-path="energy-use.html"><a href="energy-use.html#molten-oxide-electrolysis"><i class="fa fa-check"></i><b>23.3.1</b> Molten Oxide Electrolysis</a></li>
+<li class="chapter" data-level="21.1" data-path="solar.html"><a href="solar.html#software-drives-solar-costs"><i class="fa fa-check"></i><b>21.1</b> Software drives Solar Costs</a></li>
+<li class="chapter" data-level="21.2" data-path="solar.html"><a href="solar.html#efficiency"><i class="fa fa-check"></i><b>21.2</b> Efficiency</a></li>
+<li class="chapter" data-level="21.3" data-path="solar.html"><a href="solar.html#mediterranean"><i class="fa fa-check"></i><b>21.3</b> Mediterranean</a></li>
+<li class="chapter" data-level="21.4" data-path="solar.html"><a href="solar.html#solar-waste"><i class="fa fa-check"></i><b>21.4</b> Solar Waste</a></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="24" data-path="energy-poverty.html"><a href="energy-poverty.html"><i class="fa fa-check"></i><b>24</b> Energy Poverty</a></li>
-<li class="chapter" data-level="25" data-path="carbon-intensity-of-energy.html"><a href="carbon-intensity-of-energy.html"><i class="fa fa-check"></i><b>25</b> Carbon intensity of Energy</a></li>
-<li class="chapter" data-level="26" data-path="rebound-effect-1.html"><a href="rebound-effect-1.html"><i class="fa fa-check"></i><b>26</b> Rebound Effect</a></li>
-<li class="chapter" data-level="27" data-path="fossil-subsidies.html"><a href="fossil-subsidies.html"><i class="fa fa-check"></i><b>27</b> Fossil Subsidies</a></li>
-<li class="chapter" data-level="28" data-path="germany.html"><a href="germany.html"><i class="fa fa-check"></i><b>28</b> Germany</a></li>
-<li class="chapter" data-level="29" data-path="norway.html"><a href="norway.html"><i class="fa fa-check"></i><b>29</b> Norway</a>
+<li class="chapter" data-level="22" data-path="ocean-wave-power.html"><a href="ocean-wave-power.html"><i class="fa fa-check"></i><b>22</b> Ocean Wave Power</a></li>
+<li class="chapter" data-level="23" data-path="wind.html"><a href="wind.html"><i class="fa fa-check"></i><b>23</b> Wind</a>
 <ul>
-<li class="chapter" data-level="29.1" data-path="norway.html"><a href="norway.html#energy-statistics-1"><i class="fa fa-check"></i><b>29.1</b> Energy Statistics</a></li>
-<li class="chapter" data-level="29.2" data-path="norway.html"><a href="norway.html#energy-policy"><i class="fa fa-check"></i><b>29.2</b> Energy Policy</a>
+<li class="chapter" data-level="23.1" data-path="wind.html"><a href="wind.html#installed-capacity-megawatts"><i class="fa fa-check"></i><b>23.1</b> Installed Capacity Megawatts</a></li>
+<li class="chapter" data-level="23.2" data-path="wind.html"><a href="wind.html#icing"><i class="fa fa-check"></i><b>23.2</b> Icing</a></li>
+<li class="chapter" data-level="23.3" data-path="wind.html"><a href="wind.html#bladeless"><i class="fa fa-check"></i><b>23.3</b> Bladeless</a></li>
+<li class="chapter" data-level="23.4" data-path="wind.html"><a href="wind.html#power-supply-correlation-challenges"><i class="fa fa-check"></i><b>23.4</b> Power Supply Correlation Challenges</a></li>
+</ul></li>
+<li class="chapter" data-level="24" data-path="varia.html"><a href="varia.html"><i class="fa fa-check"></i><b>24</b> Varia</a>
 <ul>
-<li class="chapter" data-level="29.2.1" data-path="norway.html"><a href="norway.html#energy-policy-history"><i class="fa fa-check"></i><b>29.2.1</b> Energy Policy History</a></li>
+<li class="chapter" data-level="24.1" data-path="varia.html"><a href="varia.html#us-legislation"><i class="fa fa-check"></i><b>24.1</b> US Legislation</a></li>
+</ul></li>
+<li class="chapter" data-level="25" data-path="distributed-energy-resources.html"><a href="distributed-energy-resources.html"><i class="fa fa-check"></i><b>25</b> Distributed Energy Resources</a></li>
+<li class="chapter" data-level="26" data-path="virtual-power-plants.html"><a href="virtual-power-plants.html"><i class="fa fa-check"></i><b>26</b> Virtual Power Plants</a></li>
+<li class="chapter" data-level="27" data-path="energy-use.html"><a href="energy-use.html"><i class="fa fa-check"></i><b>27</b> Energy Use</a>
+<ul>
+<li class="chapter" data-level="27.1" data-path="energy-use.html"><a href="energy-use.html#energy-efficiency"><i class="fa fa-check"></i><b>27.1</b> Energy Efficiency</a>
+<ul>
+<li class="chapter" data-level="27.1.1" data-path="energy-use.html"><a href="energy-use.html#rebound-effect"><i class="fa fa-check"></i><b>27.1.1</b> Rebound effect</a></li>
+</ul></li>
+<li class="chapter" data-level="27.2" data-path="energy-use.html"><a href="energy-use.html#urbanization"><i class="fa fa-check"></i><b>27.2</b> Urbanization</a></li>
+<li class="chapter" data-level="27.3" data-path="energy-use.html"><a href="energy-use.html#green-steel"><i class="fa fa-check"></i><b>27.3</b> Green Steel</a>
+<ul>
+<li class="chapter" data-level="27.3.1" data-path="energy-use.html"><a href="energy-use.html#molten-oxide-electrolysis"><i class="fa fa-check"></i><b>27.3.1</b> Molten Oxide Electrolysis</a></li>
+</ul></li>
+<li class="chapter" data-level="27.4" data-path="energy-use.html"><a href="energy-use.html#aluminum"><i class="fa fa-check"></i><b>27.4</b> Aluminum</a></li>
+<li class="chapter" data-level="27.5" data-path="energy-use.html"><a href="energy-use.html#shipping"><i class="fa fa-check"></i><b>27.5</b> Shipping</a>
+<ul>
+<li class="chapter" data-level="27.5.1" data-path="energy-use.html"><a href="energy-use.html#green-methanol"><i class="fa fa-check"></i><b>27.5.1</b> Green methanol</a></li>
+</ul></li>
+<li class="chapter" data-level="27.6" data-path="energy-use.html"><a href="energy-use.html#food-energy-nexus"><i class="fa fa-check"></i><b>27.6</b> Food-Energy Nexus</a></li>
+</ul></li>
+<li class="chapter" data-level="28" data-path="energy-poverty.html"><a href="energy-poverty.html"><i class="fa fa-check"></i><b>28</b> Energy Poverty</a></li>
+<li class="chapter" data-level="29" data-path="carbon-intensity-of-energy.html"><a href="carbon-intensity-of-energy.html"><i class="fa fa-check"></i><b>29</b> Carbon intensity of Energy</a></li>
+<li class="chapter" data-level="30" data-path="rebound-effect-1.html"><a href="rebound-effect-1.html"><i class="fa fa-check"></i><b>30</b> Rebound Effect</a></li>
+<li class="chapter" data-level="31" data-path="fossil-subsidies.html"><a href="fossil-subsidies.html"><i class="fa fa-check"></i><b>31</b> Fossil Subsidies</a></li>
+<li class="chapter" data-level="32" data-path="germany.html"><a href="germany.html"><i class="fa fa-check"></i><b>32</b> Germany</a></li>
+<li class="chapter" data-level="33" data-path="norway.html"><a href="norway.html"><i class="fa fa-check"></i><b>33</b> Norway</a>
+<ul>
+<li class="chapter" data-level="33.1" data-path="norway.html"><a href="norway.html#energy-statistics-1"><i class="fa fa-check"></i><b>33.1</b> Energy Statistics</a></li>
+<li class="chapter" data-level="33.2" data-path="norway.html"><a href="norway.html#energy-policy"><i class="fa fa-check"></i><b>33.2</b> Energy Policy</a>
+<ul>
+<li class="chapter" data-level="33.2.1" data-path="norway.html"><a href="norway.html#energy-policy-history"><i class="fa fa-check"></i><b>33.2.1</b> Energy Policy History</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="30" data-path="serbia.html"><a href="serbia.html"><i class="fa fa-check"></i><b>30</b> Serbia</a></li>
-<li class="chapter" data-level="31" data-path="united-states.html"><a href="united-states.html"><i class="fa fa-check"></i><b>31</b> United States</a></li>
+<li class="chapter" data-level="34" data-path="serbia.html"><a href="serbia.html"><i class="fa fa-check"></i><b>34</b> Serbia</a></li>
+<li class="chapter" data-level="35" data-path="united-states.html"><a href="united-states.html"><i class="fa fa-check"></i><b>35</b> United States</a>
+<ul>
+<li class="chapter" data-level="35.1" data-path="united-states.html"><a href="united-states.html#ira"><i class="fa fa-check"></i><b>35.1</b> IRA</a></li>
+</ul></li>
 <li class="part"><span><b>I Appendices</b></span></li>
 <li class="appendix"><span><b>Appendices</b></span></li>
 <li class="chapter" data-level="A" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>A</b> About</a></li>
 <li class="chapter" data-level="B" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>B</b> Links</a></li>
 <li class="chapter" data-level="C" data-path="news.html"><a href="news.html"><i class="fa fa-check"></i><b>C</b> NEWS</a>
 <ul>
-<li class="chapter" data-level="C.1" data-path="news.html"><a href="news.html#floating-wind-farm"><i class="fa fa-check"></i><b>C.1</b> 221118 Floating Wind Farm</a></li>
-<li class="chapter" data-level="C.2" data-path="news.html"><a href="news.html#silicon-batteries"><i class="fa fa-check"></i><b>C.2</b> 220505 Silicon Batteries</a></li>
-<li class="chapter" data-level="C.3" data-path="news.html"><a href="news.html#europes-energy-crisis"><i class="fa fa-check"></i><b>C.3</b> 220116 Europe’s Energy Crisis</a></li>
-<li class="chapter" data-level="C.4" data-path="news.html"><a href="news.html#novel-lithium-carbon-battery-chemistry"><i class="fa fa-check"></i><b>C.4</b> 211207 Novel lithium-carbon battery chemistry</a></li>
-<li class="chapter" data-level="C.5" data-path="news.html"><a href="news.html#renewables-passing-nuclear"><i class="fa fa-check"></i><b>C.5</b> 210710 Renewables passing Nuclear</a></li>
-<li class="chapter" data-level="C.6" data-path="news.html"><a href="news.html#equinor-triple-uk-hydrogen"><i class="fa fa-check"></i><b>C.6</b> 210629 Equinor triple UK hydrogen</a></li>
-<li class="chapter" data-level="C.7" data-path="news.html"><a href="news.html#crane-battery"><i class="fa fa-check"></i><b>C.7</b> 210604 Crane Battery</a></li>
-<li class="chapter" data-level="C.8" data-path="news.html"><a href="news.html#heatcrete-thermal-storage"><i class="fa fa-check"></i><b>C.8</b> 210427 HeatCrete Thermal Storage</a></li>
-<li class="chapter" data-level="C.9" data-path="news.html"><a href="news.html#gas-is-over"><i class="fa fa-check"></i><b>C.9</b> 210121 “Gas is over”</a></li>
+<li class="chapter" data-level="C.1" data-path="news.html"><a href="news.html#the-case-against-the-us-governments-big-blue-hydrogen-bet"><i class="fa fa-check"></i><b>C.1</b> 231018 The case against the US government’s big ​‘blue hydrogen’ bet</a></li>
+<li class="chapter" data-level="C.2" data-path="news.html"><a href="news.html#sputtering-nuclear-sector"><i class="fa fa-check"></i><b>C.2</b> 221228 Sputtering Nuclear Sector</a></li>
+<li class="chapter" data-level="C.3" data-path="news.html"><a href="news.html#floating-wind-farm"><i class="fa fa-check"></i><b>C.3</b> 221118 Floating Wind Farm</a></li>
+<li class="chapter" data-level="C.4" data-path="news.html"><a href="news.html#silicon-batteries"><i class="fa fa-check"></i><b>C.4</b> 220505 Silicon Batteries</a></li>
+<li class="chapter" data-level="C.5" data-path="news.html"><a href="news.html#europes-energy-crisis"><i class="fa fa-check"></i><b>C.5</b> 220116 Europe’s Energy Crisis</a></li>
+<li class="chapter" data-level="C.6" data-path="news.html"><a href="news.html#novel-lithium-carbon-battery-chemistry"><i class="fa fa-check"></i><b>C.6</b> 211207 Novel lithium-carbon battery chemistry</a></li>
+<li class="chapter" data-level="C.7" data-path="news.html"><a href="news.html#renewables-passing-nuclear"><i class="fa fa-check"></i><b>C.7</b> 210710 Renewables passing Nuclear</a></li>
+<li class="chapter" data-level="C.8" data-path="news.html"><a href="news.html#equinor-triple-uk-hydrogen"><i class="fa fa-check"></i><b>C.8</b> 210629 Equinor triple UK hydrogen</a></li>
+<li class="chapter" data-level="C.9" data-path="news.html"><a href="news.html#crane-battery"><i class="fa fa-check"></i><b>C.9</b> 210604 Crane Battery</a></li>
+<li class="chapter" data-level="C.10" data-path="news.html"><a href="news.html#heatcrete-thermal-storage"><i class="fa fa-check"></i><b>C.10</b> 210427 HeatCrete Thermal Storage</a></li>
+<li class="chapter" data-level="C.11" data-path="news.html"><a href="news.html#gas-is-over"><i class="fa fa-check"></i><b>C.11</b> 210121 “Gas is over”</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/dyrehaugen/rngy" target="blank">On Github</a></li>
@@ -236,10 +283,41 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="hydrogen" class="section level1" number="13">
-<h1><span class="header-section-number">13</span> Hydrogen</h1>
-<div id="home-hydrogen" class="section level2" number="13.1">
-<h2><span class="header-section-number">13.1</span> Home Hydrogen</h2>
+<div id="hydrogen" class="section level1 hasAnchor" number="16">
+<h1><span class="header-section-number">16</span> Hydrogen<a href="hydrogen.html#hydrogen" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>For the past 100 years hydrogen has been used predominantly in ammonia production , oil refining, methanol production , and ten percent for other things like the plastic containers that keep salad fresh, the fabric of the seat cushions on your furniture, or the material on your winter jacket. Hydrogen has never had a market other than to make our food, make gasoline, and make the products we use every day. We never had the technology to use hydrogen for energy because the technology for hydrogen fuel cells has been incubating in its infancy for over 50 years. Well guess what? Hydrogen fuel cell technology has blossomed in the past decade to bear fruit for a clean energy future. We don’t need to use hydrogen for refining oil in a future state economy, and we don’t need to make it like our fathers, grandfathers, and great grandfathers used to in the early 1900s. It’s misleading to use century old backward looking stats as the basis for a forward-looking study when new blue hydrogen investments will be using autothermal reformation (ATR) and carbon sequestration.</p>
+<p><a href="https://www.respectmyplanet.org/publications/fuel-cells/the-truth-about-blue-hydrogen">RMP (2021) The Truth about Blue Hydrogen</a></p>
+<p><strong>ATR</strong></p>
+<p><em>Kim Abstract</em></p>
+<p>The autothermal reforming (ATR) process for hydrogen production saves considerable energy for the reaction compared with endothermic steam methane reforming (SMR). However, it requires a supply of pure oxygen, for which an air separation unit (ASU) is needed; this hinders the adoption of ATR in industrial applications because of both the high capital and operating costs. At the same time, in liquefied natural gas (LNG) regasification terminals, the cold energy from the regasification process is typically wasted. Coincidentally, the temperature of this waste cold energy matches that required for ASU operation. Thus, in this paper, a novel ATRprocess is proposed in which an ASU and LNG regasification are integrated in order to make use of the cold energy as an operating utility and achieve hydrogen production from the LNG. For the sake of comparison, the proposed system and a conventional SMR process are optimized using a genetic algorithm to evaluate and benchmark its performance. With an LNG feed stream of 827.5 kmol/h, the optimal case of the proposed system produces 2508.0 kmol/h hydrogen gas with a purity of 99.2%; the exergy destruction is reduced by 18.6% and its overall exergy efficiency is approximately 25.4% higher than that of the SMR process. Also, an economic evaluation is performed using the net present value (NPV) as an indicator. The NPV of the proposed system is 338.9 million USD, which is 72.6% higher than that of hydrogen production with the SMR process from LNG.</p>
+<p>[Kim (2021) Process Integration of an Autothermal Reforming Hydrogen Production System with Cryogenic Air Separation and Carbon Dioxide Capture Using Liquefied Natural Gas Cold Energy}(<a href="https://pubs.acs.org/doi/10.1021/acs.iecr.0c06265#" class="uri">https://pubs.acs.org/doi/10.1021/acs.iecr.0c06265#</a>)</p>
+<p><em>Csiro</em></p>
+<p>A combination of SMR and combustion of the fuel (methane), where steam is added to the oxidation process. The heat from the oxidation component supplies the energy required for the steam reforming process.
+Why is it important?</p>
+<p>Steam methane reforming and partial oxidation are integrated into a single system, in which heat integration has been incorporated.
+Characteristics</p>
+<pre><code>Inputs: Hydrocarbons, oxygen, steam, heat
+By-products: CO2
+Operating temperature: &gt;500°C
+Energy efficiency: 60-75%</code></pre>
+<p>Benefits</p>
+<pre><code>High selectivity to syngas
+Flexible H2/CO ratio for syngas production, for subsequent production of synthetic fuels
+Less clean-up required than pyrolysis options
+Can use CO2 as a reagent
+Lower process temperature than partial oxidation
+Heat from fuel combustion is used to supplement the SMR component - lower parasitic heat load as a result
+The SMR and combustion components are integrated into a single unit
+Low carbon/soot formation which minimises pressure drop and reduces OPEX
+Compact design, small footprint relative to other fossil fuel conversion methods
+Rapid start-up time</code></pre>
+<p>Limitations</p>
+<pre><code>Extensive control system required
+Requires air or oxygen
+Requires CCUS to achieve low carbon emissions</code></pre>
+<p><a href="https://www.csiro.au/en/work-with-us/ip-commercialisation/hydrogen-technology-marketplace/autothermal-reforming-dry-or-steam">Csiro (2023) Autothermal reforming (dry or steam)</a></p>
+<div id="home-heating-hydrogen" class="section level2 hasAnchor" number="16.1">
+<h2><span class="header-section-number">16.1</span> Home heating Hydrogen<a href="hydrogen.html#home-heating-hydrogen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>Guardian</em></p>
 <p>In the remote hills of Cumbria, a few miles north of Hadrian’s wall, three nondescript terrace houses stand side by side, quietly offering a glimpse of a low-carbon future.</p>
 <p>The houses are intentionally unremarkable in every way but one: they are the first in the UK to run on a blend of clean-burning hydrogen as part of the most sophisticated hydrogen testing facility in the world. Welcome to Hystreet.</p>
@@ -255,8 +333,8 @@
 <p>Although blue hydrogen is widely considered “low-carbon”, it has failed to win favour among climate campaigners. Despite using carbon-capture technology to trap emissions from the process, about 10% to 15% of the CO2 in the fossil gas would find its way to the atmosphere. It would also require continuing offshore gas production, which carries a hefty carbon footprint.</p>
 <p><a href="https://www.theguardian.com/environment/2021/oct/30/hydrogen-high-street-could-these-homes-change-the-way-we-keep-warm">Guardian</a></p>
 </div>
-<div id="green-vs-blue-hdrogen" class="section level2" number="13.2">
-<h2><span class="header-section-number">13.2</span> Green vs Blue Hdrogen</h2>
+<div id="green-vs-blue-hydrogen" class="section level2 hasAnchor" number="16.2">
+<h2><span class="header-section-number">16.2</span> Green vs Blue Hydrogen<a href="hydrogen.html#green-vs-blue-hydrogen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>Longdon Abstract</em></p>
 <p>Hydrogen produced using fossil fuel feedstocks causes greenhouse gas (GHG) emissions, even when carbon capture and storage (CCS) is used. By contrast, hydrogen produced using electrolysis and zero-emissions electricity does not create GHG emissions. Several countries advocating the use of ‘clean’ hydrogen put both technologies in the same category. Recent studies and strategies have compared these technologies, typically assuming high carbon capture rates, but have not assessed the impact of fugitive emissions and lower capture rates on total emissions and costs. We find that emissions from gas or coal based hydrogen production systems could be substantial even with CCS, and the cost of CCS is higher than often assumed. Carbon avoidance costs for high capture rates are notable. Carbon prices of $22–46/tCO2e would be required to make hydrogen from fossil fuels with CCS competitive with hydrogen produced from fossil fuels without CCS. At the same time there are indications that electrolysis with renewable energy could become cheaper than fossil fuel with CCS options, possibly in the near-term future. Establishing hydrogen supply chains on the basis of fossil fuels, as many national strategies foresee, may be incompatible with decarbonisation objectives and raise the risk of stranded assets.</p>
 <p><em>Longdon Highlights</em></p>
@@ -267,10 +345,46 @@
 <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261921014215">Longdon (2021) ‘Clean’ hydrogen? – Comparing the emissions and costs of fossil fuel versus renewable electricity based hydrogen (paywall)</a></p>
 <p><em>Guardian</em></p>
 <p>Green hydrogen beats blue on emissions and financial cost.</p>
-<p>[Guradian (2021) <a href="https://www.theguardian.com/australia-news/2021/nov/18/green-hydrogen-beats-blue-on-emissions-and-financial-cost-australian-study-finds" class="uri">https://www.theguardian.com/australia-news/2021/nov/18/green-hydrogen-beats-blue-on-emissions-and-financial-cost-australian-study-finds</a>)</p>
+<p><a href="https://www.theguardian.com/australia-news/2021/nov/18/green-hydrogen-beats-blue-on-emissions-and-financial-cost-australian-study-finds">Guardian (2021) Green hydrogen beats blue on emissions and financial cost</a></p>
 </div>
-<div id="wind-to-hydrogen" class="section level2" number="13.3">
-<h2><span class="header-section-number">13.3</span> Wind to Hydrogen</h2>
+<div id="white-hydrogen" class="section level2 hasAnchor" number="16.3">
+<h2><span class="header-section-number">16.3</span> White Hydrogen<a href="hydrogen.html#white-hydrogen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Ambrose</em></p>
+<p>For more than a decade, the village of Bourakébougou in western Mali <a href="https://www.google.com/maps/place/Bourak%C3%A9bougou,+Mali/@13.5696398,-11.1886936,1087773m/data=!3m1!1e3!4m6!3m5!1s0xe5069bfa6d51a05:0x1db5ca3900335a29!8m2!3d13.0671727!4d-8.2457307!16s%2Fg%2F11ckvvs7yy?entry=ttu">map</a> has been powered by a clean energy phenomenon that may soon sweep the globe.</p>
+<p>The story begins with a cigarette. In 1987, a failed attempt to drill for water released a stream of odourless gas that one unlucky smoker discovered to be highly flammable. The well was quickly plugged and forgotten. But almost 20 years later, drillers on the hunt for fossil fuels confirmed the accidental discovery: hundreds of feet below the arid earth of west Africa lies an abundance of naturally occurring, or “white”, hydrogen.</p>
+<p>Today, it is used to generate green electricity for Bourakébougou’s homes and shops. But geologists believe that untapped reservoirs of white hydrogen in the US, Australia and parts of Europe have the potential to provide the world with clean energy on a far greater scale.</p>
+<p>the US Geological Survey has said that even if only a small fraction of hydrogen under the Earth’s surface could be recovered, there would probably be enough to last for hundreds of years.</p>
+<p>One borehole drilled in 1921 on Kangaroo Island produced as much as 80% hydrogen. Another, on the nearby Yorke peninsula, was close to 70%.</p>
+<p>The burgeoning hydrogen industry’s supporters include Bill Gates. The billionaire investor, through his company Breakthrough Energy, was reportedly one of five backers to pour about $90m into Koloma, a company based in Colorado which is hunting natural hydrogen along the US’s Midcontinental Rift System.</p>
+<p>The 1,200-mile tectonic fault running through North America is also being targeted by Natural Hydrogen Energy, a startup due to begin exploration work alongside Australia’s HyTerra in Kansas later this month.</p>
+<p>In Europe, which remains gripped by a gas supply crisis as a result of of Russia’s invasion of Ukraine, white hydrogen has been discovered in France, in the Lorraine mining basin. And a British company, Getech, is adapting software developed to find oil to locate hydrogen deposits.</p>
+<p>The true potential of white hydrogen will depend on the findings from these early projects.</p>
+<p>Oil companies including Total and Engie in France, and Repsol in Spain, have taken modest steps on white hydrogen.
+They don’t want stranded assets, but white hydrogen could cannibalise their primary market.</p>
+<p><a href="https://www.theguardian.com/environment/2023/aug/12/prospectors-hit-the-gas-in-the-hunt-for-white-hydrogen">Ambrose (2023) Prospectors hit the gas in the hunt for ‘white hydrogen’</a></p>
+<div id="how-green-is-blue-hydrogen" class="section level3 hasAnchor" number="16.3.1">
+<h3><span class="header-section-number">16.3.1</span> How green is blue hydrogen?<a href="hydrogen.html#how-green-is-blue-hydrogen" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Howarth</em></p>
+<p>Hydrogen is often viewed as an important energy carrier in a future decarbonized world. Currently, most hydrogen is produced by steam reforming of methane in natural gas (“gray hydrogen”), with high carbon dioxide emissions. Increasingly, many propose using carbon capture and storage to reduce these emissions, producing so-called “blue hydrogen,” frequently promoted as low emissions. We undertake the first effort in a peer-reviewed paper to examine the lifecycle greenhouse gas emissions of blue hydrogen accounting for emissions of both carbon dioxide and unburned fugitive methane. Far from being low carbon, greenhouse gas emissions from the production of blue hydrogen are quite high, particularly due to the release of fugitive methane. For our default assumptions (3.5% emission rate of methane from natural gas and a 20-year global warming potential), total carbon dioxide equivalent emissions for blue hydrogen are only 9%-12% less than for gray hydrogen. While carbon dioxide emissions are lower, fugitive methane emissions for blue hydrogen are higher than for gray hydrogen because of an increased use of natural gas to power the carbon capture. Perhaps surprisingly, the greenhouse gas footprint of blue hydrogen is more than 20% greater than burning natural gas or coal for heat and some 60% greater than burning diesel oil for heat, again with our default assumptions. In a sensitivity analysis in which the methane emission rate from natural gas is reduced to a low value of 1.54%, greenhouse gas emissions from blue hydrogen are still greater than from simply burning natural gas, and are only 18%-25% less than for gray hydrogen. Our analysis assumes that captured carbon dioxide can be stored indefinitely, an optimistic and unproven assumption. Even if true though, the use of blue hydrogen appears difficult to justify on climate grounds.</p>
+<p><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ese3.956">Howarth (2021) How green is blue hydrogen?</a></p>
+<p><em>St.John</em></p>
+<p>Why blue hydrogen can be worse than burning gas</p>
+<p>After spending several years searching for evidence, Howarth teamed up with Mark Z. Jacobson, a professor of civil and environmental engineering at Stanford University, to conduct their own research. The results, published in August 2021, indicate that in almost all cases, blue hydrogen ends up emitting more greenhouse gases compared to simply burning fossil gas directly for heating and industrial processes.</p>
+<p>Several factors contribute to this counterintuitive result, Howarth said. The first is that wells, pipelines, compressor stations and other gas-delivery infrastructure leak methane, the primary component of fossil gas. Methane is a relatively short-lived but powerful greenhouse gas, with more than 80 times the global warming impact of carbon dioxide over a 20-year period.</p>
+<p>“You can’t use natural gas without fugitive methane,” Howarth said. ​“It may not be a huge amount, but it has a huge climate impact.”</p>
+<p>Howarth and Jacobson assumed that 3.5 percent of fossil gas used to make hydrogen is leaked — higher than what’s reported by the oil and gas industry and tracked by the U.S. Environmental Protection Agency, but in line with recent third-party analysis from satellite and aerial monitoring. They also considered emissions from the energy needed to drive the gray-hydrogen steam methane reformation (SMR) process, which is usually generated with fossil gas in today’s hydrogen facilities, as well as the energy needed to operate carbon capture equipment.</p>
+<p>These emissions largely erased the climate benefits of capturing carbon from SMR plants, yielding only a 9 percent to 12 percent reduction in CO2 equivalent emissions compared to unabated gray hydrogen production, the analysis found.</p>
+<p>What’s more, the energy used to convert fossil gas to hydrogen and capture the carbon emissions increases the emissions impact of every unit of blue hydrogen compared to the comparable unit of fossil gas it might replace for heating and industrial purposes, which make up a significant portion of the end uses being considered by many clean hydrogen hubs. Due to this extra energy and emissions impact, burning blue hydrogen for these purposes is about 20 percent more emissions-intensive than simply burning fossil gas to begin with, the analysis found.</p>
+<p>Even if the assumed methane leakage from upstream fossil-gas infrastructure in the researchers’ models was reduced to about 1.5 percent — roughly the current estimate from EPA — the use of blue hydrogen only reduced greenhouse gas emissions by 18 to 25 percent compared to making gray hydrogen, and the emissions associated with burning it for fuel remained greater than sticking with fossil gas, according to the report.</p>
+<p>A February <a href="https://efifoundation.org/wp-content/uploads/sites/3/2023/02/EFI-Hydrogen-Hubs-FINAL-2-1.pdf">report</a> from the Energy Futures Initiative, a nonprofit research group run by former Energy Secretary Ernest Moniz, states that the average ​“life-cycle emissions” of blue-hydrogen production — a measure that includes leakage from gas wells and pipelines as well as gas used to power hydrogen production and carbon capture — add up to more than a third of the typical emissions from gray-hydrogen production and are ​“often out of control of the production facility.”</p>
+<p>Nor is it clear that blue hydrogen can be cost-competitive against green hydrogen in the long run.
+But the scale of blue hydrogen projects eclipses that of the more numerous but smaller green hydrogen projects, accounting for 95 percent of the total production capacity.
+This indicates the scale of the fossil fuel industry’s ambitions for expanding the use of fossil gas to serve the hydrogen market.</p>
+<p><a href="https://www.canarymedia.com/articles/hydrogen/the-case-against-the-us-governments-big-blue-hydrogen-bet">St.John (2023) The case against the US government’s big ​‘blue hydrogen’ bet</a></p>
+</div>
+</div>
+<div id="wind-to-hydrogen" class="section level2 hasAnchor" number="16.4">
+<h2><span class="header-section-number">16.4</span> Wind to Hydrogen<a href="hydrogen.html#wind-to-hydrogen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Siemens Gamesa and Siemens Energy have announced plans to invest €120m ($146m)
 in a five-year strategy to unlock the potential of
 harvesting green hydrogen from offshore windpower.</p>
@@ -279,8 +393,8 @@ harvesting green hydrogen from offshore windpower.</p>
 an electrolyzer into an offshore wind turbine
 as a single synchronized system to directly produce green hydrogen.</p>
 </div>
-<div id="hydrogen-aviation" class="section level2" number="13.4">
-<h2><span class="header-section-number">13.4</span> Hydrogen Aviation</h2>
+<div id="hydrogen-aviation" class="section level2 hasAnchor" number="16.5">
+<h2><span class="header-section-number">16.5</span> Hydrogen Aviation<a href="hydrogen.html#hydrogen-aviation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>Heynes</em></p>
 <p>In 2008, Boeing flew the first hydrogen-powered aircraft whilst ZeroAvia flew the world’s first hydrogen-powered commercial aircraft in 2020. But the main industry player, already in the works to present hydrogen-powered aircraft to the market, is Airbus.</p>
 <p>For hydrogen-powered aircraft, hydrogen can be used in two ways: as a fuel source for fuel cells, when hydrogen reacts with oxygen to produce electricity that powers the engine or alternatively it can be used directly as a fuel source in a modified engine.</p>
@@ -292,8 +406,8 @@ as a single synchronized system to directly produce green hydrogen.</p>
 <p>The company claims its technology delivers an unprecedented combination of specific power and energy density and has passed key validation testing to prove its technical viability.</p>
 <p><a href="https://www.h2-view.com/story/hydrogen-aviation-projected-to-be-worth-174bn-by-2040/">Heynes</a></p>
 </div>
-<div id="green-hydrogen-cost-reduction" class="section level2" number="13.5">
-<h2><span class="header-section-number">13.5</span> Green Hydrogen Cost Reduction</h2>
+<div id="green-hydrogen-cost-reduction" class="section level2 hasAnchor" number="16.6">
+<h2><span class="header-section-number">16.6</span> Green Hydrogen Cost Reduction<a href="hydrogen.html#green-hydrogen-cost-reduction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>IRENA</em></p>
 <p>Green hydrogen currently costs between two and three times more than “blue” hydrogen, which is produced using fossil fuels in combination with carbon capture and storage (CCS).
 Falling renewable power costs and improving electrolyser technologies could make “green” hydrogen cost competitive by 2030.</p>
@@ -316,6 +430,62 @@ Falling renewable power costs and improving electrolyser technologies could make
 </blockquote>
 <p><a href="https://www.irena.org/publications/2020/Dec/Green-hydrogen-cost-reduction">IRENA (2020) Green Hydrogen Cost Reduction</a>
 <a href="pdf/IRENA_Green_hydrogen_cost_2020.pdf">(pdf)</a></p>
+</div>
+<div id="green-hydrogen--gas-of-the-future" class="section level2 hasAnchor" number="16.7">
+<h2><span class="header-section-number">16.7</span> Green Hydrogen- ‘Gas of the Future?’<a href="hydrogen.html#green-hydrogen--gas-of-the-future" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Tooze</em></p>
+<p>Already one hundred and fifty years ago Jules Verne touted hydrogen as a possible fuel. In the late 1960s GM showed off its electrovan powered by a hydrogen fuel cell. In the 1990s and 2000s the hydrogen economy was again in vogue. President Bush and Governor Schwarzenegger were both fans. But again and again, the great hydrogen revolution failed to materialize. H2 began to acquire the reputation as the fuel that had the brightest future and always would have.</p>
+<p>But history is not fate. And our times are different. Whereas, previously, hydrogen was touted as an alternative to petrol. The urgency of the climate agenda and the push for net zero has widened its role. Green hydrogen is no longer seen just as a long-shot substitute for gasoline. It is touted as the Swiss army knife of the energy transition, suitable for applications across industry, transport, agriculture, home-use and for the power sector itself.</p>
+<p>In recent years a huge coalitions of corporate interests has assembled behind green hydrogen. The Hydrogen Council, launched at Davos in January 2017, has grown into a massive corporate array advised by top tier consultancy McKinsey.</p>
+<p>One recent compilation found that hydrogen projects currently under discussion totaled a staggering 957 GW in electrolyzer capacity. The Hydrogen Council and the IEA settle more modestly for a figure of 500 GW by 2050. Currently, the combined rating of all hydrogen electrolyzers in operation around the world is less than 1 GW.</p>
+<p>The hype around hydrogen is indicative of the way in which the energy transition has morphed, some might say mutated, into an industrial policy race with hundreds of billions in subsidy, markets numbered in trillions and huge slices of the economic structure up for grabs.</p>
+<p>$1.1 trillion going into the energy transition in 2022.
+This surge in spending is good news, but what is less clear is the direction of travel. This need not be seen as a bad thing. It would be naive to imagine that a process as complex as the energy transition can be planned decades in advance from the top down. Governments, businesses, producers and consumers are all embarked on a process of experimentation and learning. And, by their decision, weighted highly unequally, they are creating facts on the ground, which if not irreversible certainly imply long-term commitment.</p>
+<p>Hydrogen may burn relatively cleanly and yield electricity through fuel cells, but since hydrogen has to be produced through the application of energy, the process is inherently inefficient. Why not simply apply the electricity you are using to make hydrogen to the task at hand?</p>
+<p>The members of the hydrogen coalition are all obviously incumbent fossil fuel and petrochemical interests looking for a bridge to the new era. If realized, their ambitious hydrogen projects may overload the available supply of green power, for little real benefit. By diverting badly needed clean power, green hydrogen vanity projects may even slow down the energy transition. And the subsidy regimes that are being put in place could become self-perpetuating. As <a href="https://www.washingtonpost.com/opinions/2023/04/27/clean-hydrogen-tax-credit-stringent-rules/">Gernot Wagner and Danny Cullenward recently warned</a>, “hydrogen could become the next corn ethanol”, a ruinously inefficient and environmentally damaging creature of subsidies that are too big to kill.</p>
+<p>What hydrogen exposes is that there is still huge uncertainty about many basic parameters of the low-carbon future, about the technologies that will emerge as dominant, the likely structure of prices and the patterns of supply and demand for key materials and other inputs.</p>
+<p>Hydrogen has never in fact been produced at scale by hydrolysis. Total global capacity is less than 1 GW. We simply don’t know if any of it can be done.</p>
+<p>There is a real risk that big new hydrogen projects might divert clean power from more efficient strategies for decarbonization.</p>
+<p>The key frontline in debates about the huge new hydrogen subsidies concerns additionality.</p>
+<p>In the debate about hydrogen there is one fact that too often goes unremarked. The hydrogen economy is not a hypothetical. Our economies as they stand already rely on the production of huge volumes of hydrogen for two basic chemical processes: the processing of oil and the production of fertilizer.</p>
+<p>For these purposes we produce over 90 million tons of hydrogen annually. It is an industry worth $160 billion or so. And because hydrogen is won from natural gas and sometimes coal it is an extremely dirty process. These uses for hydrogen do no have the glamour of green aviation or fuel-cell vehicles. But they are essential and they are very dirty. Globally, hydrogen production today accounts for emissions equivalent to those of an economy like that of Germany.</p>
+<p>Demand will be eased by the winding down of the oil industry which is the major consumer of industrial hydrogen. But the rest of the chemical industry remains, most crucially of all the fertilizer industry.</p>
+<p>Industrial hydrogen is produced on the spot in chemicals plants. It isn’t shipped in like coal or oil or natural gas.</p>
+<p>Creating a market for industrial green hydrogen is not simply a matter of technology. It requires the creation of a new commodity market and a new wave of highly specific investment.</p>
+<p><a href="https://adamtooze.substack.com/p/carbon-notes-5-green-hydrogen-the">Tooze (2023) Carbon notes #5: Green hydrogen, the “gas of the future”?</a></p>
+</div>
+<div id="hydrogen-mirage" class="section level2 hasAnchor" number="16.8">
+<h2><span class="header-section-number">16.8</span> Hydrogen Mirage?<a href="hydrogen.html#hydrogen-mirage" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Tooze</em></p>
+<p>In technological terms, hydrogen may represent a shimmering image of possibility on a distant horizon, but in political economy terms, it has a more immediate role. It is a route through which existing fossil fuel interests can imagine a place for themselves in the new energy future. The presence of oil majors and energy companies in the ranks of the Hydrogen Council is not coincidental. Hydrogen enables natural gas suppliers to imagine that they can transition their facilities to green fuels. Makers of combustion engines and gas turbines can conceive of burning hydrogen instead. Storing hydrogen or ammonia like gas or oil promises a solution to the issues of intermittency in renewable power generation and may extend the life of gas turbine power stations. For governments around the world, a more familiar technology than one largely based on solar panels, windmills, and batteries is a way of calming nerves about the transformation they have notionally signed up for.</p>
+<p><a href="https://foreignpolicy.com/2023/07/14/hydrogen-is-the-future-or-a-complete-mirage/">Tooze (2023) Hydrogen Is the Future—or a Complete Mirage</a></p>
+<p><em>Collins on Liebreich</em></p>
+<p><a href="https://www.rechargenews.com/energy-transition/liebreich-oil-sector-is-lobbying-for-inefficient-hydrogen-cars-because-it-wants-to-delay-electrification-/2-1-1033226">Collins (2021) Liebreich: ‘Oil sector is lobbying for inefficient hydrogen cars because it wants to delay electrification’</a></p>
+<p><em>Liebreich’s Hydrogen Ladder</em></p>
+<p><img src="fig/Hydrogen_Ladder.jpeg" /></p>
+<p><a href="https://www.linkedin.com/pulse/clean-hydrogen-ladder-v40-michael-liebreich/">Liebreich (2021) The Clean Hydrogen Ladder</a></p>
+<p><strong>Debunking Liebreich</strong></p>
+<p><a href="https://www.respectmyplanet.org/publications/fuel-cells/michael-liebreichs-hydrogen-ladder-debunked">RMP (2022) Michael Liebreich’s Hydrogen Ladder Debunked</a></p>
+<p><strong>Debunking Ulf Bossel</strong></p>
+<p>Dr. Bossel does not understand how our energy grid works and where waste is really occurring. Dr. Bossel’s thesis statement is that converting water to hydrogen is a wasteful use of electricity. Ironically, we often have more generating capacity than we can use or transmit and we are curtailing electricity generation that hydrogen production could easily soak up and save for cloudy and windless days. It’s actually wasteful to not create hydrogen because so much electricity is going unemployed. RMP will drive this point home throughout this rebuttal to Dr. Bossel’s thesis and we will look at data from various sources like CAISO to support this thesis argument. Economics is a complex subject and it’s imperative that all things are considered which is where Dr. Bossel’s arguments fail.</p>
+<p>Producing, compressing, and storing hydrogen might seem wasteful in a laboratory analysis, but the opposite is true in the real world. Let’s talk about electricity “curtailment”. Curtailment of carbon zero renewable electricity is when wind &amp; solar electricity generation capacity exceeds society’s immediate needs and the grid operator does not allow that electricity onto the grid. Terawatt hours are being wasted each year on grids around the globe because of not employing that capacity to store energy as hydrogen.</p>
+<p>Dr. Bossel has made good contributions to the science of physics and makes good points about the energy density issues of methanol and ammonia versus those of compressed or liquefied H2. To those points, RMP finds common ground with Dr. Bossel. But, where economic science is concerned, Dr. Bossel’s thesis quickly falls apart and becomes not credible.</p>
+<p>Dr. Bossel’s failure to include natural gas in his analysis shot his argument in the foot from the very first paragraph. By failing to demonstrate knowledge of how a high-voltage electricity grid works, Dr. Bossel further disqualifies himself as a credible source.</p>
+<p><a href="https://www.respectmyplanet.org/publications/fuel-cells/debunking-dr-bossels-anti-hydrogen-thesis">RMP (2017) Debunking Dr. Bossel’s Anti-Hydrogen Thesis</a></p>
+<p><strong>Debunking Mark Jacobsen - The Truth about Blue Hydrogen</strong></p>
+<p>Blue hydrogen has been making headlines this summer. It’s made from natural gas in a two-part process called autothermal reformation (ATR). The ATR process is different than the steam reformation (SMR) process used to make most hydrogen over the past century. There has never been a market for hydrogen for energy so we learn more &amp; more each year about how to make zero, net zero, and low emission hydrogen for future markets. What distinguishes the ATR process of making hydrogen from the SMR process is a step called partial oxidation. In the first part of the ATR process, methane (CH4) is partially oxidized to create syngas. In the 2nd part of the ATR process, called a water-gas shift reaction, the syngas is mixed with steam to make carbon dioxide &amp; hydrogen.</p>
+<p>What makes the hydrogen “blue”, and why the US Department of Energy is talking about this pathway for hydrogen production, is that ~95% of the CO2 from the process is easily separated from the natural gas and can be permanently sequestered such that it will never reach our atmosphere. The reason this hydrogen is being called “net zero” is because the by-products of the process can be used to make the energy required to execute the process as well producing excess energy.</p>
+<p>he first major flaw in the Jacobson/Howarth paper is that the study employs a 20-year window to assign a greenhouse gas equivalency to methane instead of the 100-year window the IPCC uses3. While it’s true methane is a powerful GHG that’s 100 times more potent than CO2, it goes away in about 12 years. Integrating methane’s warming potential over a 20-year window gives it a CO2 equivalency of 86 which is the figure that Howarth &amp; Jacobson use in their study. Over a 100-year window, however, it’s only 28 which is 1/3 of the figure Howarth and Jacobson employ. The 20-year equivalency exaggerates the overall impact of methane emissions because over most of the 100-years, the methane would be long gone from the atmosphere.</p>
+<p>The next major flaw in the report conflates fugitive methane emissions from oil production rather than natural gas production.
+Natural gas is often vented or flared at oil wells because there is no way to get it to market and it’s therefore unwanted. We need to eliminate the use of oil for so many reasons and natural gas emissions is just one more reason to add to the list. We need to eliminate the use of oil as soon as humanly possible. Oil wells are responsible for releasing more methane emissions from subsurface wells than natural gas wells or any other type of well. This point is conflated in the Jacobson/Howarth study further eroding is credibility.</p>
+<p>It’s disingenuous to compare leakage rates at oil wells -vs- gas wells which is what the Howarth/Jacobson study does. This means the 2.6% figure for upstream emissions the Howarth/Jacobson study employs grossly overstates the emissions associated with use of natural gas.</p>
+<p>The third and most deceptive flaw of the Howarth/Jacobson paper is the sleight of hand of basing calculations on old school steam methane reforming (SMR) rather than autothermal reformation (ATR).</p>
+<p>One final flaw in the report is section 2.2 of the study calling out the extra power it would take to run the SMR process. This is actually how blue hydrogen achieves its ‘net zero’ claim through the ATR process. In section 2.2 of the Jacobson/Howarth study, Mark calculates 31.8g of CO2 are generated to create 1 MJ of hydrogen. The math is correct, but the irony again is sleight of hand in that this is the amount of CO2 saved because it will be sequestered. By capturing the CO2 that would otherwise be necessary to create the hydrogen while also having surplus power for nearby homes &amp; businesses, the blue hydrogen produced earns its “net zero” claim.</p>
+<p>The math and chemical equations in the Howarth/Jacobson paper are not scientifically accurate as laid out above. But the bigger problem is the way the study uses sleight of hand tricks to get you to look backward instead of forward. Howarth and Jacobson go to lengths calculating the chemical mole weights of carbon dioxide from making hydrogen from steam reformation. On page four of the study there’s a table to summarize how much carbon dioxide is released as flue gas in the SMR process. Let me say the same thing I said when I debunked Dr. Bossel’s pseudo-scientific paper: I don’t dispute the Howarth/Jacobson chemical calculations per se, but by plugging the wrong numbers into his equations, Mark arrives at the wrong results.</p>
+<p><a href="https://www.respectmyplanet.org/publications/fuel-cells/the-truth-about-blue-hydrogen">RMP (2021) The Truth about Blue Hydrogen</a></p>
+<p><strong>Mark Jacobsen Abstract</strong></p>
+<p>Hydrogen is often viewed as an important energy carrier in a future decarbonized world. Currently, most hydrogen is produced by steam reforming of methane in natural gas (“gray hydrogen”), with high carbon dioxide emissions. Increasingly, many propose using carbon capture and storage to reduce these emissions, producing so-called “blue hydrogen,” frequently promoted as low emissions. We undertake the first effort in a peer-reviewed paper to examine the lifecycle greenhouse gas emissions of blue hydrogen accounting for emissions of both carbon dioxide and unburned fugitive methane. Far from being low carbon, greenhouse gas emissions from the production of blue hydrogen are quite high, particularly due to the release of fugitive methane. For our default assumptions (3.5% emission rate of methane from natural gas and a 20-year global warming potential), total carbon dioxide equivalent emissions for blue hydrogen are only 9%-12% less than for gray hydrogen. While carbon dioxide emissions are lower, fugitive methane emissions for blue hydrogen are higher than for gray hydrogen because of an increased use of natural gas to power the carbon capture. Perhaps surprisingly, the greenhouse gas footprint of blue hydrogen is more than 20% greater than burning natural gas or coal for heat and some 60% greater than burning diesel oil for heat, again with our default assumptions. In a sensitivity analysis in which the methane emission rate from natural gas is reduced to a low value of 1.54%, greenhouse gas emissions from blue hydrogen are still greater than from simply burning natural gas, and are only 18%-25% less than for gray hydrogen. Our analysis assumes that captured carbon dioxide can be stored indefinitely, an optimistic and unproven assumption. Even if true though, the use of blue hydrogen appears difficult to justify on climate grounds.</p>
+<p><a href="https://www.researchgate.net/publication/353841896_How_green_is_blue_hydrogen">Jacobsen (2021) How green is blue hydrogen? (Request pdf from authors)</a></p>
 
 </div>
 </div>
@@ -329,7 +499,6 @@ Falling renewable power costs and improving electrolyser technologies could make
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -370,7 +539,7 @@ gitbook.start({
 },
 "download": ["rngy.pdf", "rngy.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {
@@ -386,7 +555,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');

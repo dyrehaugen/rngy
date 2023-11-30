@@ -4,19 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>23 Energy Use | Energy</title>
-  <meta name="description" content="23 Energy Use | Energy" />
-  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+  <title>27 Energy Use | Energy</title>
+  <meta name="description" content="27 Energy Use | Energy" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="23 Energy Use | Energy" />
+  <meta property="og:title" content="27 Energy Use | Energy" />
   <meta property="og:type" content="book" />
-  
   
   
   <meta name="github-repo" content="dyrehaugen/rngy" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="23 Energy Use | Energy" />
+  <meta name="twitter:title" content="27 Energy Use | Energy" />
   
   
   
@@ -24,7 +23,7 @@
 <meta name="author" content="Dyrehaugen Web Notebook" />
 
 
-<meta name="date" content="2022-12-04" />
+<meta name="date" content="2023-11-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +32,8 @@
   
 <link rel="prev" href="virtual-power-plants.html"/>
 <link rel="next" href="energy-poverty.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,13 +49,16 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -80,6 +82,7 @@
 <li class="chapter" data-level="2.1" data-path="energy-overview.html"><a href="energy-overview.html#energy-civilization"><i class="fa fa-check"></i><b>2.1</b> Energy Civilization</a></li>
 <li class="chapter" data-level="2.2" data-path="energy-overview.html"><a href="energy-overview.html#world-energy-outlook"><i class="fa fa-check"></i><b>2.2</b> World Energy Outlook</a></li>
 <li class="chapter" data-level="2.3" data-path="energy-overview.html"><a href="energy-overview.html#energy-power-game"><i class="fa fa-check"></i><b>2.3</b> Energy Power Game</a></li>
+<li class="chapter" data-level="2.4" data-path="energy-overview.html"><a href="energy-overview.html#world-energy-consumption-per-capita"><i class="fa fa-check"></i><b>2.4</b> World Energy Consumption per Capita</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="energy-demand.html"><a href="energy-demand.html"><i class="fa fa-check"></i><b>3</b> Energy Demand</a>
 <ul>
@@ -90,131 +93,175 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="energy-intensity.html"><a href="energy-intensity.html#power-density"><i class="fa fa-check"></i><b>4.1</b> Power Density</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="energy-development.html"><a href="energy-development.html"><i class="fa fa-check"></i><b>5</b> Energy Development</a></li>
-<li class="chapter" data-level="6" data-path="energy-transition.html"><a href="energy-transition.html"><i class="fa fa-check"></i><b>6</b> Energy Transition</a>
+<li class="chapter" data-level="5" data-path="energy-return.html"><a href="energy-return.html"><i class="fa fa-check"></i><b>5</b> Energy Return</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="energy-transition.html"><a href="energy-transition.html#minerals-in-transition"><i class="fa fa-check"></i><b>6.1</b> Minerals in Transition</a></li>
-<li class="chapter" data-level="6.2" data-path="energy-transition.html"><a href="energy-transition.html#iea-net-zero-2050"><i class="fa fa-check"></i><b>6.2</b> IEA Net-zero 2050</a></li>
-<li class="chapter" data-level="6.3" data-path="energy-transition.html"><a href="energy-transition.html#transition-risks"><i class="fa fa-check"></i><b>6.3</b> Transition Risks</a></li>
-<li class="chapter" data-level="6.4" data-path="energy-transition.html"><a href="energy-transition.html#transition-forecasting"><i class="fa fa-check"></i><b>6.4</b> Transition Forecasting</a></li>
+<li class="chapter" data-level="5.1" data-path="energy-return.html"><a href="energy-return.html#eroei"><i class="fa fa-check"></i><b>5.1</b> EROEI</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="batteries.html"><a href="batteries.html"><i class="fa fa-check"></i><b>7</b> Batteries</a>
+<li class="chapter" data-level="6" data-path="energy-development.html"><a href="energy-development.html"><i class="fa fa-check"></i><b>6</b> Energy Development</a></li>
+<li class="chapter" data-level="7" data-path="energy-transition.html"><a href="energy-transition.html"><i class="fa fa-check"></i><b>7</b> Energy Transition</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="batteries.html"><a href="batteries.html#lithium"><i class="fa fa-check"></i><b>7.1</b> Lithium</a>
+<li class="chapter" data-level="7.1" data-path="energy-transition.html"><a href="energy-transition.html#minerals-in-transition"><i class="fa fa-check"></i><b>7.1</b> Minerals in Transition</a>
 <ul>
-<li class="chapter" data-level="7.1.1" data-path="batteries.html"><a href="batteries.html#portugals-lithium-reserves"><i class="fa fa-check"></i><b>7.1.1</b> Portugal’s Lithium Reserves</a></li>
+<li class="chapter" data-level="7.1.1" data-path="energy-transition.html"><a href="energy-transition.html#copper"><i class="fa fa-check"></i><b>7.1.1</b> Copper</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="batteries.html"><a href="batteries.html#lithium-ion-batteries-libs"><i class="fa fa-check"></i><b>7.2</b> Lithium-ion Batteries (LIBs)</a></li>
-<li class="chapter" data-level="7.3" data-path="batteries.html"><a href="batteries.html#iron-air"><i class="fa fa-check"></i><b>7.3</b> Iron-Air</a></li>
-<li class="chapter" data-level="7.4" data-path="batteries.html"><a href="batteries.html#flow-batteries"><i class="fa fa-check"></i><b>7.4</b> Flow Batteries</a></li>
-<li class="chapter" data-level="7.5" data-path="batteries.html"><a href="batteries.html#zinc"><i class="fa fa-check"></i><b>7.5</b> Zinc</a></li>
-<li class="chapter" data-level="7.6" data-path="batteries.html"><a href="batteries.html#sodium-ion"><i class="fa fa-check"></i><b>7.6</b> Sodium-ion</a></li>
-<li class="chapter" data-level="7.7" data-path="batteries.html"><a href="batteries.html#liquid-metal"><i class="fa fa-check"></i><b>7.7</b> Liquid-Metal</a></li>
-<li class="chapter" data-level="7.8" data-path="batteries.html"><a href="batteries.html#quantumscape"><i class="fa fa-check"></i><b>7.8</b> QuantumScape</a></li>
-<li class="chapter" data-level="7.9" data-path="batteries.html"><a href="batteries.html#pumped-hydro"><i class="fa fa-check"></i><b>7.9</b> Pumped Hydro</a></li>
-<li class="chapter" data-level="7.10" data-path="batteries.html"><a href="batteries.html#flow-batteries-1"><i class="fa fa-check"></i><b>7.10</b> Flow Batteries</a></li>
-<li class="chapter" data-level="7.11" data-path="batteries.html"><a href="batteries.html#mechnical-energy-storage"><i class="fa fa-check"></i><b>7.11</b> Mechnical Energy Storage</a></li>
-<li class="chapter" data-level="7.12" data-path="batteries.html"><a href="batteries.html#thermal-storage"><i class="fa fa-check"></i><b>7.12</b> Thermal Storage</a></li>
-<li class="chapter" data-level="7.13" data-path="batteries.html"><a href="batteries.html#software-market-flex"><i class="fa fa-check"></i><b>7.13</b> Software (Market Flex)</a></li>
-<li class="chapter" data-level="7.14" data-path="batteries.html"><a href="batteries.html#compressed-air"><i class="fa fa-check"></i><b>7.14</b> Compressed Air</a></li>
+<li class="chapter" data-level="7.2" data-path="energy-transition.html"><a href="energy-transition.html#iea-net-zero-2050"><i class="fa fa-check"></i><b>7.2</b> IEA Net-zero 2050</a></li>
+<li class="chapter" data-level="7.3" data-path="energy-transition.html"><a href="energy-transition.html#transition-risks"><i class="fa fa-check"></i><b>7.3</b> Transition Risks</a></li>
+<li class="chapter" data-level="7.4" data-path="energy-transition.html"><a href="energy-transition.html#transition-forecasting"><i class="fa fa-check"></i><b>7.4</b> Transition Forecasting</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="amoniac.html"><a href="amoniac.html"><i class="fa fa-check"></i><b>8</b> Amoniac</a></li>
-<li class="chapter" data-level="9" data-path="bio-fuel.html"><a href="bio-fuel.html"><i class="fa fa-check"></i><b>9</b> Bio Fuel</a></li>
-<li class="chapter" data-level="10" data-path="fuel-cells.html"><a href="fuel-cells.html"><i class="fa fa-check"></i><b>10</b> Fuel Cells</a></li>
-<li class="chapter" data-level="11" data-path="geothermal.html"><a href="geothermal.html"><i class="fa fa-check"></i><b>11</b> Geothermal</a>
+<li class="chapter" data-level="8" data-path="batteries.html"><a href="batteries.html"><i class="fa fa-check"></i><b>8</b> Batteries</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="geothermal.html"><a href="geothermal.html#heat-storage"><i class="fa fa-check"></i><b>11.1</b> Heat Storage</a></li>
-<li class="chapter" data-level="11.2" data-path="geothermal.html"><a href="geothermal.html#deep-drilling"><i class="fa fa-check"></i><b>11.2</b> Deep Drilling</a>
+<li class="chapter" data-level="8.1" data-path="batteries.html"><a href="batteries.html#lithium"><i class="fa fa-check"></i><b>8.1</b> Lithium</a>
 <ul>
-<li class="chapter" data-level="11.2.1" data-path="geothermal.html"><a href="geothermal.html#ultra-deep-drilling"><i class="fa fa-check"></i><b>11.2.1</b> Ultra Deep Drilling</a></li>
-<li class="chapter" data-level="11.2.2" data-path="geothermal.html"><a href="geothermal.html#drilling-technology"><i class="fa fa-check"></i><b>11.2.2</b> Drilling Technology</a></li>
+<li class="chapter" data-level="8.1.1" data-path="batteries.html"><a href="batteries.html#portugals-lithium-reserves"><i class="fa fa-check"></i><b>8.1.1</b> Portugal’s Lithium Reserves</a></li>
 </ul></li>
-<li class="chapter" data-level="11.3" data-path="geothermal.html"><a href="geothermal.html#nevada"><i class="fa fa-check"></i><b>11.3</b> Nevada</a></li>
-<li class="chapter" data-level="11.4" data-path="geothermal.html"><a href="geothermal.html#china"><i class="fa fa-check"></i><b>11.4</b> China</a></li>
-<li class="chapter" data-level="11.5" data-path="geothermal.html"><a href="geothermal.html#us"><i class="fa fa-check"></i><b>11.5</b> US</a></li>
+<li class="chapter" data-level="8.2" data-path="batteries.html"><a href="batteries.html#lithium-ion-batteries-libs"><i class="fa fa-check"></i><b>8.2</b> Lithium-ion Batteries (LIBs)</a></li>
+<li class="chapter" data-level="8.3" data-path="batteries.html"><a href="batteries.html#nickel-hydrogen"><i class="fa fa-check"></i><b>8.3</b> Nickel-Hydrogen</a></li>
+<li class="chapter" data-level="8.4" data-path="batteries.html"><a href="batteries.html#iron-air"><i class="fa fa-check"></i><b>8.4</b> Iron-Air</a></li>
+<li class="chapter" data-level="8.5" data-path="batteries.html"><a href="batteries.html#flow-batteries"><i class="fa fa-check"></i><b>8.5</b> Flow Batteries</a></li>
+<li class="chapter" data-level="8.6" data-path="batteries.html"><a href="batteries.html#zinc"><i class="fa fa-check"></i><b>8.6</b> Zinc</a></li>
+<li class="chapter" data-level="8.7" data-path="batteries.html"><a href="batteries.html#sodium-ion"><i class="fa fa-check"></i><b>8.7</b> Sodium-ion</a></li>
+<li class="chapter" data-level="8.8" data-path="batteries.html"><a href="batteries.html#sodium-sulphur"><i class="fa fa-check"></i><b>8.8</b> Sodium-Sulphur</a></li>
+<li class="chapter" data-level="8.9" data-path="batteries.html"><a href="batteries.html#liquid-metal"><i class="fa fa-check"></i><b>8.9</b> Liquid-Metal</a></li>
+<li class="chapter" data-level="8.10" data-path="batteries.html"><a href="batteries.html#quantumscape"><i class="fa fa-check"></i><b>8.10</b> QuantumScape</a></li>
+<li class="chapter" data-level="8.11" data-path="batteries.html"><a href="batteries.html#co2"><i class="fa fa-check"></i><b>8.11</b> CO2</a></li>
+<li class="chapter" data-level="8.12" data-path="batteries.html"><a href="batteries.html#graphene"><i class="fa fa-check"></i><b>8.12</b> Graphene</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="hydro-power.html"><a href="hydro-power.html"><i class="fa fa-check"></i><b>12</b> Hydro Power</a></li>
-<li class="chapter" data-level="13" data-path="hydrogen.html"><a href="hydrogen.html"><i class="fa fa-check"></i><b>13</b> Hydrogen</a>
+<li class="chapter" data-level="9" data-path="energy-storage.html"><a href="energy-storage.html"><i class="fa fa-check"></i><b>9</b> Energy Storage</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="hydrogen.html"><a href="hydrogen.html#home-hydrogen"><i class="fa fa-check"></i><b>13.1</b> Home Hydrogen</a></li>
-<li class="chapter" data-level="13.2" data-path="hydrogen.html"><a href="hydrogen.html#green-vs-blue-hdrogen"><i class="fa fa-check"></i><b>13.2</b> Green vs Blue Hdrogen</a></li>
-<li class="chapter" data-level="13.3" data-path="hydrogen.html"><a href="hydrogen.html#wind-to-hydrogen"><i class="fa fa-check"></i><b>13.3</b> Wind to Hydrogen</a></li>
-<li class="chapter" data-level="13.4" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-aviation"><i class="fa fa-check"></i><b>13.4</b> Hydrogen Aviation</a></li>
-<li class="chapter" data-level="13.5" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen-cost-reduction"><i class="fa fa-check"></i><b>13.5</b> Green Hydrogen Cost Reduction</a></li>
+<li class="chapter" data-level="9.1" data-path="energy-storage.html"><a href="energy-storage.html#pumped-hydro"><i class="fa fa-check"></i><b>9.1</b> Pumped Hydro</a></li>
+<li class="chapter" data-level="9.2" data-path="energy-storage.html"><a href="energy-storage.html#flow-batteries-1"><i class="fa fa-check"></i><b>9.2</b> Flow Batteries</a></li>
+<li class="chapter" data-level="9.3" data-path="energy-storage.html"><a href="energy-storage.html#mechnical-energy-storage"><i class="fa fa-check"></i><b>9.3</b> Mechnical Energy Storage</a></li>
+<li class="chapter" data-level="9.4" data-path="energy-storage.html"><a href="energy-storage.html#thermal-storage"><i class="fa fa-check"></i><b>9.4</b> Thermal Storage</a></li>
+<li class="chapter" data-level="9.5" data-path="energy-storage.html"><a href="energy-storage.html#software-market-flex"><i class="fa fa-check"></i><b>9.5</b> Software (Market Flex)</a></li>
+<li class="chapter" data-level="9.6" data-path="energy-storage.html"><a href="energy-storage.html#compressed-air"><i class="fa fa-check"></i><b>9.6</b> Compressed Air</a></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="nuclear.html"><a href="nuclear.html"><i class="fa fa-check"></i><b>14</b> Nuclear</a>
+<li class="chapter" data-level="10" data-path="amoniac.html"><a href="amoniac.html"><i class="fa fa-check"></i><b>10</b> Amoniac</a></li>
+<li class="chapter" data-level="11" data-path="aviation-fuel.html"><a href="aviation-fuel.html"><i class="fa fa-check"></i><b>11</b> Aviation Fuel</a></li>
+<li class="chapter" data-level="12" data-path="bio-fuel.html"><a href="bio-fuel.html"><i class="fa fa-check"></i><b>12</b> Bio Fuel</a></li>
+<li class="chapter" data-level="13" data-path="fuel-cells.html"><a href="fuel-cells.html"><i class="fa fa-check"></i><b>13</b> Fuel Cells</a></li>
+<li class="chapter" data-level="14" data-path="geothermal.html"><a href="geothermal.html"><i class="fa fa-check"></i><b>14</b> Geothermal</a>
 <ul>
-<li class="chapter" data-level="14.1" data-path="nuclear.html"><a href="nuclear.html#fukushima"><i class="fa fa-check"></i><b>14.1</b> Fukushima</a></li>
-<li class="chapter" data-level="14.2" data-path="nuclear.html"><a href="nuclear.html#james-hansens-position"><i class="fa fa-check"></i><b>14.2</b> James Hansen’s Position</a></li>
-<li class="chapter" data-level="14.3" data-path="nuclear.html"><a href="nuclear.html#fusion---iter"><i class="fa fa-check"></i><b>14.3</b> Fusion - ITER</a></li>
-<li class="chapter" data-level="14.4" data-path="nuclear.html"><a href="nuclear.html#thorium"><i class="fa fa-check"></i><b>14.4</b> Thorium</a></li>
-<li class="chapter" data-level="14.5" data-path="nuclear.html"><a href="nuclear.html#melted-salt-reactors"><i class="fa fa-check"></i><b>14.5</b> Melted Salt Reactors</a></li>
-</ul></li>
-<li class="chapter" data-level="15" data-path="oil.html"><a href="oil.html"><i class="fa fa-check"></i><b>15</b> Oil</a>
+<li class="chapter" data-level="14.1" data-path="geothermal.html"><a href="geothermal.html#heat-storage"><i class="fa fa-check"></i><b>14.1</b> Heat Storage</a></li>
+<li class="chapter" data-level="14.2" data-path="geothermal.html"><a href="geothermal.html#deep-drilling"><i class="fa fa-check"></i><b>14.2</b> Deep Drilling</a>
 <ul>
-<li class="chapter" data-level="15.1" data-path="oil.html"><a href="oil.html#carbon-intensity-of-crude-oil-production"><i class="fa fa-check"></i><b>15.1</b> Carbon Intensity of Crude Oil Production</a></li>
+<li class="chapter" data-level="14.2.1" data-path="geothermal.html"><a href="geothermal.html#ultra-deep-drilling"><i class="fa fa-check"></i><b>14.2.1</b> Ultra Deep Drilling</a></li>
+<li class="chapter" data-level="14.2.2" data-path="geothermal.html"><a href="geothermal.html#drilling-technology"><i class="fa fa-check"></i><b>14.2.2</b> Drilling Technology</a></li>
 </ul></li>
-<li class="chapter" data-level="16" data-path="renewable.html"><a href="renewable.html"><i class="fa fa-check"></i><b>16</b> Renewable</a></li>
-<li class="chapter" data-level="17" data-path="solar.html"><a href="solar.html"><i class="fa fa-check"></i><b>17</b> Solar</a>
+<li class="chapter" data-level="14.3" data-path="geothermal.html"><a href="geothermal.html#enhanced-geothermal"><i class="fa fa-check"></i><b>14.3</b> Enhanced Geothermal</a></li>
+<li class="chapter" data-level="14.4" data-path="geothermal.html"><a href="geothermal.html#us---nevada"><i class="fa fa-check"></i><b>14.4</b> US - Nevada</a></li>
+<li class="chapter" data-level="14.5" data-path="geothermal.html"><a href="geothermal.html#china"><i class="fa fa-check"></i><b>14.5</b> China</a></li>
+<li class="chapter" data-level="14.6" data-path="geothermal.html"><a href="geothermal.html#us"><i class="fa fa-check"></i><b>14.6</b> US</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="hydro-power.html"><a href="hydro-power.html"><i class="fa fa-check"></i><b>15</b> Hydro Power</a></li>
+<li class="chapter" data-level="16" data-path="hydrogen.html"><a href="hydrogen.html"><i class="fa fa-check"></i><b>16</b> Hydrogen</a>
 <ul>
-<li class="chapter" data-level="17.1" data-path="solar.html"><a href="solar.html#software-drives-solar-costs"><i class="fa fa-check"></i><b>17.1</b> Software drives Solar Costs</a></li>
-<li class="chapter" data-level="17.2" data-path="solar.html"><a href="solar.html#efficiency"><i class="fa fa-check"></i><b>17.2</b> Efficiency</a></li>
-</ul></li>
-<li class="chapter" data-level="18" data-path="ocean-wave-power.html"><a href="ocean-wave-power.html"><i class="fa fa-check"></i><b>18</b> Ocean Wave Power</a></li>
-<li class="chapter" data-level="19" data-path="wind.html"><a href="wind.html"><i class="fa fa-check"></i><b>19</b> Wind</a>
+<li class="chapter" data-level="16.1" data-path="hydrogen.html"><a href="hydrogen.html#home-heating-hydrogen"><i class="fa fa-check"></i><b>16.1</b> Home heating Hydrogen</a></li>
+<li class="chapter" data-level="16.2" data-path="hydrogen.html"><a href="hydrogen.html#green-vs-blue-hydrogen"><i class="fa fa-check"></i><b>16.2</b> Green vs Blue Hydrogen</a></li>
+<li class="chapter" data-level="16.3" data-path="hydrogen.html"><a href="hydrogen.html#white-hydrogen"><i class="fa fa-check"></i><b>16.3</b> White Hydrogen</a>
 <ul>
-<li class="chapter" data-level="19.1" data-path="wind.html"><a href="wind.html#installed-capacity-megawatts"><i class="fa fa-check"></i><b>19.1</b> Installed Capacity Megawatts</a></li>
-<li class="chapter" data-level="19.2" data-path="wind.html"><a href="wind.html#icing"><i class="fa fa-check"></i><b>19.2</b> Icing</a></li>
-<li class="chapter" data-level="19.3" data-path="wind.html"><a href="wind.html#bladeless"><i class="fa fa-check"></i><b>19.3</b> Bladeless</a></li>
+<li class="chapter" data-level="16.3.1" data-path="hydrogen.html"><a href="hydrogen.html#how-green-is-blue-hydrogen"><i class="fa fa-check"></i><b>16.3.1</b> How green is blue hydrogen?</a></li>
 </ul></li>
-<li class="chapter" data-level="20" data-path="varia.html"><a href="varia.html"><i class="fa fa-check"></i><b>20</b> Varia</a>
+<li class="chapter" data-level="16.4" data-path="hydrogen.html"><a href="hydrogen.html#wind-to-hydrogen"><i class="fa fa-check"></i><b>16.4</b> Wind to Hydrogen</a></li>
+<li class="chapter" data-level="16.5" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-aviation"><i class="fa fa-check"></i><b>16.5</b> Hydrogen Aviation</a></li>
+<li class="chapter" data-level="16.6" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen-cost-reduction"><i class="fa fa-check"></i><b>16.6</b> Green Hydrogen Cost Reduction</a></li>
+<li class="chapter" data-level="16.7" data-path="hydrogen.html"><a href="hydrogen.html#green-hydrogen--gas-of-the-future"><i class="fa fa-check"></i><b>16.7</b> Green Hydrogen- ‘Gas of the Future?’</a></li>
+<li class="chapter" data-level="16.8" data-path="hydrogen.html"><a href="hydrogen.html#hydrogen-mirage"><i class="fa fa-check"></i><b>16.8</b> Hydrogen Mirage?</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="nuclear.html"><a href="nuclear.html"><i class="fa fa-check"></i><b>17</b> Nuclear</a>
 <ul>
-<li class="chapter" data-level="20.1" data-path="varia.html"><a href="varia.html#us-legislation"><i class="fa fa-check"></i><b>20.1</b> US Legislation</a></li>
+<li class="chapter" data-level="17.1" data-path="nuclear.html"><a href="nuclear.html#fukushima"><i class="fa fa-check"></i><b>17.1</b> Fukushima</a></li>
+<li class="chapter" data-level="17.2" data-path="nuclear.html"><a href="nuclear.html#james-hansens-position"><i class="fa fa-check"></i><b>17.2</b> James Hansen’s Position</a></li>
+<li class="chapter" data-level="17.3" data-path="nuclear.html"><a href="nuclear.html#fusion---iter"><i class="fa fa-check"></i><b>17.3</b> Fusion - ITER</a></li>
+<li class="chapter" data-level="17.4" data-path="nuclear.html"><a href="nuclear.html#fusion---helion"><i class="fa fa-check"></i><b>17.4</b> Fusion - Helion</a></li>
+<li class="chapter" data-level="17.5" data-path="nuclear.html"><a href="nuclear.html#fusion---tiny"><i class="fa fa-check"></i><b>17.5</b> Fusion - Tiny</a></li>
+<li class="chapter" data-level="17.6" data-path="nuclear.html"><a href="nuclear.html#fusion---neither-clean-nor-cheap"><i class="fa fa-check"></i><b>17.6</b> Fusion - Neither clean nor cheap</a></li>
+<li class="chapter" data-level="17.7" data-path="nuclear.html"><a href="nuclear.html#thorium"><i class="fa fa-check"></i><b>17.7</b> Thorium</a></li>
+<li class="chapter" data-level="17.8" data-path="nuclear.html"><a href="nuclear.html#melted-salt-reactors"><i class="fa fa-check"></i><b>17.8</b> Melted Salt Reactors</a></li>
+<li class="chapter" data-level="17.9" data-path="nuclear.html"><a href="nuclear.html#uranium-supply-chain"><i class="fa fa-check"></i><b>17.9</b> Uranium Supply Chain</a></li>
 </ul></li>
-<li class="chapter" data-level="21" data-path="distributed-energy-resources.html"><a href="distributed-energy-resources.html"><i class="fa fa-check"></i><b>21</b> Distributed Energy Resources</a></li>
-<li class="chapter" data-level="22" data-path="virtual-power-plants.html"><a href="virtual-power-plants.html"><i class="fa fa-check"></i><b>22</b> Virtual Power Plants</a></li>
-<li class="chapter" data-level="23" data-path="energy-use.html"><a href="energy-use.html"><i class="fa fa-check"></i><b>23</b> Energy Use</a>
+<li class="chapter" data-level="18" data-path="ocean-turbines.html"><a href="ocean-turbines.html"><i class="fa fa-check"></i><b>18</b> Ocean turbines</a></li>
+<li class="chapter" data-level="19" data-path="oil.html"><a href="oil.html"><i class="fa fa-check"></i><b>19</b> Oil</a>
 <ul>
-<li class="chapter" data-level="23.1" data-path="energy-use.html"><a href="energy-use.html#energy-efficiency"><i class="fa fa-check"></i><b>23.1</b> Energy Efficiency</a>
+<li class="chapter" data-level="19.1" data-path="oil.html"><a href="oil.html#carbon-intensity-of-crude-oil-production"><i class="fa fa-check"></i><b>19.1</b> Carbon Intensity of Crude Oil Production</a></li>
+</ul></li>
+<li class="chapter" data-level="20" data-path="renewable.html"><a href="renewable.html"><i class="fa fa-check"></i><b>20</b> Renewable</a>
 <ul>
-<li class="chapter" data-level="23.1.1" data-path="energy-use.html"><a href="energy-use.html#rebound-effect"><i class="fa fa-check"></i><b>23.1.1</b> Rebound effect</a></li>
+<li class="chapter" data-level="20.1" data-path="renewable.html"><a href="renewable.html#green-energy-a-dead-end"><i class="fa fa-check"></i><b>20.1</b> Green energy: A Dead End</a></li>
 </ul></li>
-<li class="chapter" data-level="23.2" data-path="energy-use.html"><a href="energy-use.html#urbanization"><i class="fa fa-check"></i><b>23.2</b> Urbanization</a></li>
-<li class="chapter" data-level="23.3" data-path="energy-use.html"><a href="energy-use.html#green-steel"><i class="fa fa-check"></i><b>23.3</b> Green Steel</a>
+<li class="chapter" data-level="21" data-path="solar.html"><a href="solar.html"><i class="fa fa-check"></i><b>21</b> Solar</a>
 <ul>
-<li class="chapter" data-level="23.3.1" data-path="energy-use.html"><a href="energy-use.html#molten-oxide-electrolysis"><i class="fa fa-check"></i><b>23.3.1</b> Molten Oxide Electrolysis</a></li>
+<li class="chapter" data-level="21.1" data-path="solar.html"><a href="solar.html#software-drives-solar-costs"><i class="fa fa-check"></i><b>21.1</b> Software drives Solar Costs</a></li>
+<li class="chapter" data-level="21.2" data-path="solar.html"><a href="solar.html#efficiency"><i class="fa fa-check"></i><b>21.2</b> Efficiency</a></li>
+<li class="chapter" data-level="21.3" data-path="solar.html"><a href="solar.html#mediterranean"><i class="fa fa-check"></i><b>21.3</b> Mediterranean</a></li>
+<li class="chapter" data-level="21.4" data-path="solar.html"><a href="solar.html#solar-waste"><i class="fa fa-check"></i><b>21.4</b> Solar Waste</a></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="24" data-path="energy-poverty.html"><a href="energy-poverty.html"><i class="fa fa-check"></i><b>24</b> Energy Poverty</a></li>
-<li class="chapter" data-level="25" data-path="carbon-intensity-of-energy.html"><a href="carbon-intensity-of-energy.html"><i class="fa fa-check"></i><b>25</b> Carbon intensity of Energy</a></li>
-<li class="chapter" data-level="26" data-path="rebound-effect-1.html"><a href="rebound-effect-1.html"><i class="fa fa-check"></i><b>26</b> Rebound Effect</a></li>
-<li class="chapter" data-level="27" data-path="fossil-subsidies.html"><a href="fossil-subsidies.html"><i class="fa fa-check"></i><b>27</b> Fossil Subsidies</a></li>
-<li class="chapter" data-level="28" data-path="germany.html"><a href="germany.html"><i class="fa fa-check"></i><b>28</b> Germany</a></li>
-<li class="chapter" data-level="29" data-path="norway.html"><a href="norway.html"><i class="fa fa-check"></i><b>29</b> Norway</a>
+<li class="chapter" data-level="22" data-path="ocean-wave-power.html"><a href="ocean-wave-power.html"><i class="fa fa-check"></i><b>22</b> Ocean Wave Power</a></li>
+<li class="chapter" data-level="23" data-path="wind.html"><a href="wind.html"><i class="fa fa-check"></i><b>23</b> Wind</a>
 <ul>
-<li class="chapter" data-level="29.1" data-path="norway.html"><a href="norway.html#energy-statistics-1"><i class="fa fa-check"></i><b>29.1</b> Energy Statistics</a></li>
-<li class="chapter" data-level="29.2" data-path="norway.html"><a href="norway.html#energy-policy"><i class="fa fa-check"></i><b>29.2</b> Energy Policy</a>
+<li class="chapter" data-level="23.1" data-path="wind.html"><a href="wind.html#installed-capacity-megawatts"><i class="fa fa-check"></i><b>23.1</b> Installed Capacity Megawatts</a></li>
+<li class="chapter" data-level="23.2" data-path="wind.html"><a href="wind.html#icing"><i class="fa fa-check"></i><b>23.2</b> Icing</a></li>
+<li class="chapter" data-level="23.3" data-path="wind.html"><a href="wind.html#bladeless"><i class="fa fa-check"></i><b>23.3</b> Bladeless</a></li>
+<li class="chapter" data-level="23.4" data-path="wind.html"><a href="wind.html#power-supply-correlation-challenges"><i class="fa fa-check"></i><b>23.4</b> Power Supply Correlation Challenges</a></li>
+</ul></li>
+<li class="chapter" data-level="24" data-path="varia.html"><a href="varia.html"><i class="fa fa-check"></i><b>24</b> Varia</a>
 <ul>
-<li class="chapter" data-level="29.2.1" data-path="norway.html"><a href="norway.html#energy-policy-history"><i class="fa fa-check"></i><b>29.2.1</b> Energy Policy History</a></li>
+<li class="chapter" data-level="24.1" data-path="varia.html"><a href="varia.html#us-legislation"><i class="fa fa-check"></i><b>24.1</b> US Legislation</a></li>
+</ul></li>
+<li class="chapter" data-level="25" data-path="distributed-energy-resources.html"><a href="distributed-energy-resources.html"><i class="fa fa-check"></i><b>25</b> Distributed Energy Resources</a></li>
+<li class="chapter" data-level="26" data-path="virtual-power-plants.html"><a href="virtual-power-plants.html"><i class="fa fa-check"></i><b>26</b> Virtual Power Plants</a></li>
+<li class="chapter" data-level="27" data-path="energy-use.html"><a href="energy-use.html"><i class="fa fa-check"></i><b>27</b> Energy Use</a>
+<ul>
+<li class="chapter" data-level="27.1" data-path="energy-use.html"><a href="energy-use.html#energy-efficiency"><i class="fa fa-check"></i><b>27.1</b> Energy Efficiency</a>
+<ul>
+<li class="chapter" data-level="27.1.1" data-path="energy-use.html"><a href="energy-use.html#rebound-effect"><i class="fa fa-check"></i><b>27.1.1</b> Rebound effect</a></li>
+</ul></li>
+<li class="chapter" data-level="27.2" data-path="energy-use.html"><a href="energy-use.html#urbanization"><i class="fa fa-check"></i><b>27.2</b> Urbanization</a></li>
+<li class="chapter" data-level="27.3" data-path="energy-use.html"><a href="energy-use.html#green-steel"><i class="fa fa-check"></i><b>27.3</b> Green Steel</a>
+<ul>
+<li class="chapter" data-level="27.3.1" data-path="energy-use.html"><a href="energy-use.html#molten-oxide-electrolysis"><i class="fa fa-check"></i><b>27.3.1</b> Molten Oxide Electrolysis</a></li>
+</ul></li>
+<li class="chapter" data-level="27.4" data-path="energy-use.html"><a href="energy-use.html#aluminum"><i class="fa fa-check"></i><b>27.4</b> Aluminum</a></li>
+<li class="chapter" data-level="27.5" data-path="energy-use.html"><a href="energy-use.html#shipping"><i class="fa fa-check"></i><b>27.5</b> Shipping</a>
+<ul>
+<li class="chapter" data-level="27.5.1" data-path="energy-use.html"><a href="energy-use.html#green-methanol"><i class="fa fa-check"></i><b>27.5.1</b> Green methanol</a></li>
+</ul></li>
+<li class="chapter" data-level="27.6" data-path="energy-use.html"><a href="energy-use.html#food-energy-nexus"><i class="fa fa-check"></i><b>27.6</b> Food-Energy Nexus</a></li>
+</ul></li>
+<li class="chapter" data-level="28" data-path="energy-poverty.html"><a href="energy-poverty.html"><i class="fa fa-check"></i><b>28</b> Energy Poverty</a></li>
+<li class="chapter" data-level="29" data-path="carbon-intensity-of-energy.html"><a href="carbon-intensity-of-energy.html"><i class="fa fa-check"></i><b>29</b> Carbon intensity of Energy</a></li>
+<li class="chapter" data-level="30" data-path="rebound-effect-1.html"><a href="rebound-effect-1.html"><i class="fa fa-check"></i><b>30</b> Rebound Effect</a></li>
+<li class="chapter" data-level="31" data-path="fossil-subsidies.html"><a href="fossil-subsidies.html"><i class="fa fa-check"></i><b>31</b> Fossil Subsidies</a></li>
+<li class="chapter" data-level="32" data-path="germany.html"><a href="germany.html"><i class="fa fa-check"></i><b>32</b> Germany</a></li>
+<li class="chapter" data-level="33" data-path="norway.html"><a href="norway.html"><i class="fa fa-check"></i><b>33</b> Norway</a>
+<ul>
+<li class="chapter" data-level="33.1" data-path="norway.html"><a href="norway.html#energy-statistics-1"><i class="fa fa-check"></i><b>33.1</b> Energy Statistics</a></li>
+<li class="chapter" data-level="33.2" data-path="norway.html"><a href="norway.html#energy-policy"><i class="fa fa-check"></i><b>33.2</b> Energy Policy</a>
+<ul>
+<li class="chapter" data-level="33.2.1" data-path="norway.html"><a href="norway.html#energy-policy-history"><i class="fa fa-check"></i><b>33.2.1</b> Energy Policy History</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="30" data-path="serbia.html"><a href="serbia.html"><i class="fa fa-check"></i><b>30</b> Serbia</a></li>
-<li class="chapter" data-level="31" data-path="united-states.html"><a href="united-states.html"><i class="fa fa-check"></i><b>31</b> United States</a></li>
+<li class="chapter" data-level="34" data-path="serbia.html"><a href="serbia.html"><i class="fa fa-check"></i><b>34</b> Serbia</a></li>
+<li class="chapter" data-level="35" data-path="united-states.html"><a href="united-states.html"><i class="fa fa-check"></i><b>35</b> United States</a>
+<ul>
+<li class="chapter" data-level="35.1" data-path="united-states.html"><a href="united-states.html#ira"><i class="fa fa-check"></i><b>35.1</b> IRA</a></li>
+</ul></li>
 <li class="part"><span><b>I Appendices</b></span></li>
 <li class="appendix"><span><b>Appendices</b></span></li>
 <li class="chapter" data-level="A" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>A</b> About</a></li>
 <li class="chapter" data-level="B" data-path="links.html"><a href="links.html"><i class="fa fa-check"></i><b>B</b> Links</a></li>
 <li class="chapter" data-level="C" data-path="news.html"><a href="news.html"><i class="fa fa-check"></i><b>C</b> NEWS</a>
 <ul>
-<li class="chapter" data-level="C.1" data-path="news.html"><a href="news.html#floating-wind-farm"><i class="fa fa-check"></i><b>C.1</b> 221118 Floating Wind Farm</a></li>
-<li class="chapter" data-level="C.2" data-path="news.html"><a href="news.html#silicon-batteries"><i class="fa fa-check"></i><b>C.2</b> 220505 Silicon Batteries</a></li>
-<li class="chapter" data-level="C.3" data-path="news.html"><a href="news.html#europes-energy-crisis"><i class="fa fa-check"></i><b>C.3</b> 220116 Europe’s Energy Crisis</a></li>
-<li class="chapter" data-level="C.4" data-path="news.html"><a href="news.html#novel-lithium-carbon-battery-chemistry"><i class="fa fa-check"></i><b>C.4</b> 211207 Novel lithium-carbon battery chemistry</a></li>
-<li class="chapter" data-level="C.5" data-path="news.html"><a href="news.html#renewables-passing-nuclear"><i class="fa fa-check"></i><b>C.5</b> 210710 Renewables passing Nuclear</a></li>
-<li class="chapter" data-level="C.6" data-path="news.html"><a href="news.html#equinor-triple-uk-hydrogen"><i class="fa fa-check"></i><b>C.6</b> 210629 Equinor triple UK hydrogen</a></li>
-<li class="chapter" data-level="C.7" data-path="news.html"><a href="news.html#crane-battery"><i class="fa fa-check"></i><b>C.7</b> 210604 Crane Battery</a></li>
-<li class="chapter" data-level="C.8" data-path="news.html"><a href="news.html#heatcrete-thermal-storage"><i class="fa fa-check"></i><b>C.8</b> 210427 HeatCrete Thermal Storage</a></li>
-<li class="chapter" data-level="C.9" data-path="news.html"><a href="news.html#gas-is-over"><i class="fa fa-check"></i><b>C.9</b> 210121 “Gas is over”</a></li>
+<li class="chapter" data-level="C.1" data-path="news.html"><a href="news.html#the-case-against-the-us-governments-big-blue-hydrogen-bet"><i class="fa fa-check"></i><b>C.1</b> 231018 The case against the US government’s big ​‘blue hydrogen’ bet</a></li>
+<li class="chapter" data-level="C.2" data-path="news.html"><a href="news.html#sputtering-nuclear-sector"><i class="fa fa-check"></i><b>C.2</b> 221228 Sputtering Nuclear Sector</a></li>
+<li class="chapter" data-level="C.3" data-path="news.html"><a href="news.html#floating-wind-farm"><i class="fa fa-check"></i><b>C.3</b> 221118 Floating Wind Farm</a></li>
+<li class="chapter" data-level="C.4" data-path="news.html"><a href="news.html#silicon-batteries"><i class="fa fa-check"></i><b>C.4</b> 220505 Silicon Batteries</a></li>
+<li class="chapter" data-level="C.5" data-path="news.html"><a href="news.html#europes-energy-crisis"><i class="fa fa-check"></i><b>C.5</b> 220116 Europe’s Energy Crisis</a></li>
+<li class="chapter" data-level="C.6" data-path="news.html"><a href="news.html#novel-lithium-carbon-battery-chemistry"><i class="fa fa-check"></i><b>C.6</b> 211207 Novel lithium-carbon battery chemistry</a></li>
+<li class="chapter" data-level="C.7" data-path="news.html"><a href="news.html#renewables-passing-nuclear"><i class="fa fa-check"></i><b>C.7</b> 210710 Renewables passing Nuclear</a></li>
+<li class="chapter" data-level="C.8" data-path="news.html"><a href="news.html#equinor-triple-uk-hydrogen"><i class="fa fa-check"></i><b>C.8</b> 210629 Equinor triple UK hydrogen</a></li>
+<li class="chapter" data-level="C.9" data-path="news.html"><a href="news.html#crane-battery"><i class="fa fa-check"></i><b>C.9</b> 210604 Crane Battery</a></li>
+<li class="chapter" data-level="C.10" data-path="news.html"><a href="news.html#heatcrete-thermal-storage"><i class="fa fa-check"></i><b>C.10</b> 210427 HeatCrete Thermal Storage</a></li>
+<li class="chapter" data-level="C.11" data-path="news.html"><a href="news.html#gas-is-over"><i class="fa fa-check"></i><b>C.11</b> 210121 “Gas is over”</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/dyrehaugen/rngy" target="blank">On Github</a></li>
@@ -236,8 +283,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="energy-use" class="section level1" number="23">
-<h1><span class="header-section-number">23</span> Energy Use</h1>
+<div id="energy-use" class="section level1 hasAnchor" number="27">
+<h1><span class="header-section-number">27</span> Energy Use<a href="energy-use.html#energy-use" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p><em>James Hansen obviously has not confidence in renewables</em></p>
 <p>China and India have large, growing economies that depend on fossil fuels, especially coal.
 They are also global leaders in producing and installing renewable energies. Their enthusiasm
@@ -250,10 +297,10 @@ energies and at least a doubling or quadrupling of global nuclear power.</p>
 <p>Fig. Energy consumption (percent) in 2019 by fuel in world and 71 nations: BP data
 (black = coal, orange = oil; red = gas; gray = nuclear; blue = hydro; green = renewable).
 [Source:James Hansen: Planet Ch47]</p>
-<div id="energy-efficiency" class="section level2" number="23.1">
-<h2><span class="header-section-number">23.1</span> Energy Efficiency</h2>
-<div id="rebound-effect" class="section level3" number="23.1.1">
-<h3><span class="header-section-number">23.1.1</span> Rebound effect</h3>
+<div id="energy-efficiency" class="section level2 hasAnchor" number="27.1">
+<h2><span class="header-section-number">27.1</span> Energy Efficiency<a href="energy-use.html#energy-efficiency" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="rebound-effect" class="section level3 hasAnchor" number="27.1.1">
+<h3><span class="header-section-number">27.1.1</span> Rebound effect<a href="energy-use.html#rebound-effect" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Rebound effect = Jevons Paradox</p>
 <p><em>Lange</em></p>
 <p>Literature on the rebound phenomenon has grown significantly over the last decade. However, the field is
@@ -297,22 +344,22 @@ lines between the levels indicate that the rebound effect at a lower level is pa
 <a href="pdf/Lange_2021_Jevons_Unravelled.pdf">(pdf)</a></p>
 </div>
 </div>
-<div id="urbanization" class="section level2" number="23.2">
-<h2><span class="header-section-number">23.2</span> Urbanization</h2>
+<div id="urbanization" class="section level2 hasAnchor" number="27.2">
+<h2><span class="header-section-number">27.2</span> Urbanization<a href="energy-use.html#urbanization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>Fix (twitter)</em></p>
 <p>Are cities sustainable? A loaded question, yes. But one we should think about nonetheless.
 Here’s an undeniable fact: urbanization correlates strongly with energy use per person.</p>
 <p><img src="fig/Fix_2008_Urban_Energy_Use.png" /></p>
 </div>
-<div id="green-steel" class="section level2" number="23.3">
-<h2><span class="header-section-number">23.3</span> Green Steel</h2>
+<div id="green-steel" class="section level2 hasAnchor" number="27.3">
+<h2><span class="header-section-number">27.3</span> Green Steel<a href="energy-use.html#green-steel" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><em>Roselund</em></p>
 <p>In conventional iron production, blast furnaces use coke — nearly pure carbon coal — to heat ore and separate oxygen from the iron in the ore. For this step, Hybrit uses a different, more efficient process called direct reduction. While this can be done with natural gas or even coal as the agent that removes the oxygen, Hybrit’s innovation is to use hydrogen made from electrolysis powered by renewable energy. The clean exterior of the facility is a testament to this: Instead of soot from unburned carbon and large amounts of CO2, the Hybrit plant emits clouds of water vapor.</p>
 <p><img src="fig/hybrit-h2-based-ironmaking-en.jpg" /></p>
 <p>This is groundbreaking. Iron and steel production accounts for 7% of total global CO2 emissions, and climate and energy experts have long considered it one of the more challenging industries to decarbonize. Recycling of steel can mitigate some of the emissions — provided furnaces run on electricity from low- or zero-carbon sources — but will not suffice to meet global demand in the 21st century. Building all of the wind turbines, transmission towers and other infrastructure we need for global decarbonization will require a lot of steel. Additionally, growing economies in China, India and other rapidly developing nations are expected to drive a big increase in steel demand over the next few decades.</p>
 <p><a href="https://www.canarymedia.com/articles/green-steel-is-coming-sooner-than-you-think/">Roselund (2021) Green steel is picking up steam in Europe (CanaryMedia)</a></p>
-<div id="molten-oxide-electrolysis" class="section level3" number="23.3.1">
-<h3><span class="header-section-number">23.3.1</span> Molten Oxide Electrolysis</h3>
+<div id="molten-oxide-electrolysis" class="section level3 hasAnchor" number="27.3.1">
+<h3><span class="header-section-number">27.3.1</span> Molten Oxide Electrolysis<a href="energy-use.html#molten-oxide-electrolysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Soltoff</em></p>
 <p>Decarbonizing the steel industry is a major hurdle in dealing with climate change. Steel production is responsible for close to 7% of global greenhouse gas emissions, roughly equivalent to the annual emissions of all the cars on the world’s roads. But steel is also used to make cars, so these impacts are overlapping. And that gets to the very heart of why steel is such a big deal when it comes to climate change: It’s everywhere.</p>
 <p>Decarbonization often comes down to finding creative uses for electricity. The playbook is simple. You take a process that traditionally burns fossil fuels, and then you replace it with an alternative that uses clean electricity instead.</p>
@@ -335,8 +382,49 @@ Molten oxide electrolysis is too nascent.</p>
 According to Columbia’s research on decarbonizing steel, replacing all the world’s blast furnaces with MOE manufacturing processes would require an amount of power equivalent to almost 20 percent of global electricity consumption in 2018. That means the steel industry would become one of the biggest users of electricity on the planet.</p>
 <p>But replacing all steel production with hydrogen-powered direct reduction of iron could require even more electricity. That means there’s no way to address steel’s climate impacts without installing a whopping amount of clean power generation, in addition to making sure that the grid is ready to reliably move around all that extra electricity.</p>
 <p><a href="https://www.canarymedia.com/articles/clean-industry/green-steel-without-green-hydrogen-can-it-work">Soltoff (2022) Green steel without green hydrogen — can it work?</a></p>
-
 </div>
+</div>
+<div id="aluminum" class="section level2 hasAnchor" number="27.4">
+<h2><span class="header-section-number">27.4</span> Aluminum<a href="energy-use.html#aluminum" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Takemura</em></p>
+<p>Aluminum is a linchpin of the clean-energy economy. The gleaming metal is found not only in EVs and solar panels, but also in wind turbines, heat pumps and the transmission lines critical for building out the grid. By 2035, IRA-driven demand for aluminum for use in wind turbines and solar panels is forecast to exceed all of the aluminum produced in the U.S. in 2022. So the industry now faces the twin challenges of drastically ramping up production while simultaneously slashing CO2 from its operations, which currently account for 2 percent of global greenhouse gas emissions annually.</p>
+<p>The industry’s emissions stem mainly from the incredible amount of electricity used to produce primary aluminum, which is refined directly from ore rather than recycled metal. In this process, smelters zap 1,700˚F-plus baths of molten salt and aluminum oxide with electricity in order to precipitate out pure aluminum.</p>
+<p>In 2021, roughly 70 percent of U.S. aluminum’s emissions came from those electricity demands, according to a <a href="https://environmentalintegrity.org/wp-content/uploads/2023/09/Aluminum-Paradox-report-EMBARGOED-for-09.27.23.pdf">report by the nonprofit Environmental Integrity Project</a>. Only one plant in the U.S. runs on renewable hydropower, while the others run on fossil fuels, including coal.</p>
+<p>Of the remaining 30 percent of emissions, about 20 percent are a byproduct of the electrolytic reaction itself — the fossil-fuel anode that conducts electricity releases CO2 and other greenhouse gases — and 10 percent come from making the anodes and producing the precursor aluminum oxide (alumina), according to the report.</p>
+<p>Several of the letter’s signatories, including Ford and GM, are also members of the First Movers Coalition, a group of companies leveraging their purchasing power to drive industrial decarbonization. They’ve pledged that of the primary aluminum they buy, at least 10 percent will be low-carbon — defined by the group as emitting less than 3 metric tons of CO2 per metric ton of aluminum — by 2030.</p>
+<p>There’s not much U.S.-made aluminum to buy these days, dirty or clean. Most primary aluminum is produced by China, followed by India and Russia. Meanwhile, the U.S. aluminum industry is in crisis: The sector has shrunk from 23 smelters three decades ago to just five in operation today. And those holdouts are struggling due to “spiking [fossil] electricity prices, lack of low-cost renewable energy and insufficient federal investment.”</p>
+<p><a href="https://www.canarymedia.com/articles/clean-energy-manufacturing/can-the-us-lead-on-clean-aluminum-ford-gm-and-others-hope-so">Takemura (2023) Can the US lead on clean aluminum? Ford, GM and others hope so</a></p>
+</div>
+<div id="shipping" class="section level2 hasAnchor" number="27.5">
+<h2><span class="header-section-number">27.5</span> Shipping<a href="energy-use.html#shipping" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="green-methanol" class="section level3 hasAnchor" number="27.5.1">
+<h3><span class="header-section-number">27.5.1</span> Green methanol<a href="energy-use.html#green-methanol" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Gallucci</em></p>
+<p>“Green” methanol is gaining favor as a lower-carbon way to power cargo ships. But we’re going to need a lot more of it for the plan to work.</p>
+<p>Methanol, or <span class="math inline">\(CH_{3}OH\)</span>, is gaining favor as an alternative fuel.
+Methanol doesn’t produce harmful soot or particulate matter when burned. If made from renewables, the chemical can sharply curb carbon dioxide emissions compared to using oil-based fuels, though it still emits some <span class="math inline">\(CO_2\)</span>.</p>
+<p>The latest example of industry uptake comes from CMA CGM, one of the world’s largest container shipping companies and Walmart’s top shipping partner. The French carrier recently placed orders worth billions of dollars for new vessels that can run on methanol. Now CMA CGM expects to have 24 such ships in service by 2027, the company told Canary Media.</p>
+<p>The new orders, announced last week, give CMA CGM a lead over its competitor Maersk. The Danish shipping giant has 19 methanol-powered ships in the works and helped put methanol on the map in 2021 when it ordered the first methanol-burning container vessel, which is set to launch in early 2024. All told, Maersk’s new ships could help avoid 2.3 million metric tons of annual carbon dioxide emissions if they’re fully powered by renewably produced methanol, the company said. That’s akin to taking 512,000 gas-powered passenger cars off the road for one year.</p>
+<p>Within the next few years, the industry is expected to have some 125 vessels that can operate on methanol in service. That’s a small fraction — about 0.25 percent — of the roughly 50,000 merchant ships that move cargo internationally today.</p>
+<p>Companies and government agencies still need to invest billions of dollars to upgrade port infrastructure and add refueling equipment to keep these ships filled up.</p>
+<p>Bio-methanol made from plant biomass can curb emissions by 70 to 80 percent, researchers said. By contrast, conventional methanol from fossil gas, known as ​“gray” methanol, can actually increase CO2 emissions compared to marine gas oil, though it still results in fewer air pollutants.</p>
+<p>Although chemical tankers have carried methanol in their cargo holds for decades, companies didn’t begin using the liquid to power engines until relatively recently.</p>
+<p>In 2016, Waterfront Shipping began operating the world’s first ocean-going vessel capable of using methanol. The chemical tanker, named Lindager, has ​“dual-fuel” engines that can run on either methanol or oil-based fuels. Virtually all methanol-powered ships in use or being built today — including CMA CGM’s — have a similar set-up, which enables ship operators to switch between fuels depending on the price or availability.</p>
+<p>This compatibility is a major reason why methanol is quickly taking off.</p>
+<p>Waterfront Shipping now uses 18 dual-fuel vessels to carry cargo worldwide, representing 60 percent of its operating fleet.</p>
+<p>From a technical point of view, there’s quite a big difference compared with the other alternatives for shipping,” said Erik Hannell, CEO of Stena Bulk, a Swedish tanker shipping company. ​“You can actually invest in [methanol] today.”~
+Stena Bulk has about 80 total vessels in its fleet, including four tankers with dual-fuel engines. Hannell said the ships primarily run on conventional methanol, though the company intends to blend more green methanol into the mix as supplies become more available — and as its customers grow more willing to pay a ​“green premium” to buy cleaner but costlier versions of the fuel.</p>
+<p>Methanol remains one of the few near-term options that shipping companies have for tackling emissions using existing infrastructure. Other promising zero-carbon alternatives, such as <a href="https://www.canarymedia.com/articles/sea-transport/the-race-is-on-to-build-the-worlds-first-ammonia-powered-ship">ammonia</a> and hydrogen, are in much earlier stages of technology development and remain potentially decades away from achieving mainstream adoption.</p>
+<p><a href="https://www.canarymedia.com/articles/sea-transport/this-common-chemical-could-help-shipping-giants-start-to-decarbonize">Gallucci (2023) This common chemical could help shipping giants start to decarbonize</a></p>
+</div>
+</div>
+<div id="food-energy-nexus" class="section level2 hasAnchor" number="27.6">
+<h2><span class="header-section-number">27.6</span> Food-Energy Nexus<a href="energy-use.html#food-energy-nexus" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Webber</em></p>
+<p>Food itself is just a means of energy storage, and a particularly good one at that. While photosynthesis is remarkably inefficient — averaging only 0.3% globally, compared to 90% or more in an electric motor — it stores energy for weeks to years.</p>
+<p>In the U.S. we use around 12% of our energy to produce food, in the form of inputs like diesel, fertilizer and electricity. Meanwhile, the food system itself provides fuel to the rest of the energy system, through ethanol and other forms of bioenergy.</p>
+<p><a href="https://www.canarymedia.com/podcasts/catalyst-with-shayle-kann/the-food-energy-nexus">Webber (2023) The food-energy nexus (podcast)</a></p>
+
 </div>
 </div>
             </section>
@@ -349,7 +437,6 @@ According to Columbia’s research on decarbonizing steel, replacing all the wor
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -390,7 +477,7 @@ gitbook.start({
 },
 "download": ["rngy.pdf", "rngy.epub"],
 "search": {
-"engine": "lunr",
+"engine": "fuse",
 "options": null
 },
 "toc": {
@@ -406,7 +493,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');
