@@ -73,6 +73,7 @@ fusion---neither-clean-nor-cheap
 thorium
 melted-salt-reactors
 uranium-supply-chain
+smr---small-modular-reactor
 ocean-turbines
 oil
 carbon-intensity-of-crude-oil-production
