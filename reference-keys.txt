@@ -64,6 +64,8 @@ green-hydrogen-cost-reduction
 green-hydrogen--gas-of-the-future
 hydrogen-mirage
 nuclear
+cop28-tripple-nuclear-by-20250
+nuclear-dilemma
 fukushima
 james-hansens-position
 fusion---iter
@@ -74,6 +76,8 @@ thorium
 melted-salt-reactors
 uranium-supply-chain
 smr---small-modular-reactor
+nuclear-leaks-and-waste
+sellafield
 ocean-turbines
 oil
 carbon-intensity-of-crude-oil-production
