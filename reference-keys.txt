@@ -32,6 +32,7 @@ liquid-metal
 quantumscape
 co2
 graphene
+ev-battery-supply-chain
 energy-storage
 pumped-hydro
 flow-batteries-1
