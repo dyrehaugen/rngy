@@ -33,6 +33,7 @@ quantumscape
 co2
 graphene
 ev-battery-supply-chain
+battery-repair
 energy-storage
 pumped-hydro
 flow-batteries-1
