@@ -47,6 +47,7 @@ contrails
 bio-fuel
 fuel-cells
 geothermal
+global-geothermal-power-tracker
 heat-storage
 deep-drilling
 ultra-deep-drilling
