@@ -53,6 +53,7 @@ deep-drilling
 ultra-deep-drilling
 drilling-technology
 enhanced-geothermal
+history-of-geothermal
 us---nevada
 china
 us
